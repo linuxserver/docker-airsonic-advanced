@@ -29,8 +29,8 @@ RUN \
  find /usr -name "accessibility.properties" -exec rm -fv '{}' + && \
  echo "**** install airsonic advanced ****" && \
  if [ -z ${AIRSONIC_ADVANCED_RELEASE+x} ]; then \
- 	AIRSONIC_ADVANCED_RELEASE=$(curl -sX GET "https://api.github.com/repos/airsonic-advanced/airsonic-advanced/releases/latest" \
-        | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+ 	AIRSONIC_ADVANCED_RELEASE=$(curl -sX GET "https://api.github.com/repos/airsonic-advanced/airsonic-advanced/releases" \
+	| jq -r 'first(.[] | select(.prerelease == true)) | .tag_name'); \
  fi && \
  mkdir -p \
 	${AIRSONIC_ADVANCED_HOME} && \
