@@ -13,8 +13,11 @@ FROM lsiobase/ubuntu:focal
  LANG="C.UTF-8"
  
  RUN \
-  echo "**** install runtime packages ****" && \
+  echo "**** install build packages ****" && \
   apt-get update && \
+  apt-get install -y \
+    jq && \
+  echo "**** install runtime packages ****" && \
   apt-get install -y \
  	--no-install-recommends \
  	ca-certificates \
@@ -28,16 +31,18 @@ FROM lsiobase/ubuntu:focal
   find /etc -name "accessibility.properties" -exec rm -fv '{}' + && \
   find /usr -name "accessibility.properties" -exec rm -fv '{}' + && \
   echo "**** install airsonic advanced ****" && \
- if [ -z ${AIRSONIC_ADVANCED_RELEASE+x} ]; then \
- 	AIRSONIC_ADVANCED_RELEASE=$(curl -sX GET "https://api.github.com/repos/airsonic-advanced/airsonic-advanced/releases" \
+   if [ -z ${AIRSONIC_ADVANCED_RELEASE+x} ]; then \
+  	AIRSONIC_ADVANCED_RELEASE=$(curl -sX GET "https://api.github.com/repos/airsonic-advanced/airsonic-advanced/releases" \
 	| jq -r 'first(.[] | select(.prerelease == true)) | .tag_name'); \
- fi && \
+   fi && \
   mkdir -p \
  	${AIRSONIC_ADVANCED_HOME} && \
   curl -o \
   ${AIRSONIC_ADVANCED_HOME}/airsonic.war -L \
  	"https://github.com/airsonic-advanced/airsonic-advanced/releases/download/${AIRSONIC_ADVANCED_RELEASE}/airsonic.war" && \
   echo "**** cleanup ****" && \
+  apt-get -y purge \
+    jq && \
   rm -rf \
  	/tmp/* \
  	/var/lib/apt/lists/* \

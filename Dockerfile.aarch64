@@ -13,8 +13,11 @@ FROM lsiobase/ubuntu:arm64v8-focal
  LANG="C.UTF-8"
  
  RUN \
-  echo "**** install runtime packages ****" && \
+  echo "**** install build packages ****" && \
   apt-get update && \
+  apt-get install -y \
+    jq && \
+  echo "**** install runtime packages ****" && \
   apt-get install -y \
  	--no-install-recommends \
  	ca-certificates \
@@ -38,6 +41,8 @@ FROM lsiobase/ubuntu:arm64v8-focal
   ${AIRSONIC_ADVANCED_HOME}/airsonic.war -L \
  	"https://github.com/airsonic-advanced/airsonic-advanced/releases/download/${AIRSONIC_ADVANCED_RELEASE}/airsonic.war" && \
   echo "**** cleanup ****" && \
+  apt-get -y purge \
+    jq && \
   rm -rf \
  	/tmp/* \
  	/var/lib/apt/lists/* \
