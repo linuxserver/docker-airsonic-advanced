@@ -1,0 +1,29 @@
+---
+
+# jenkins variables
+project_name: docker-airsonic-advanced
+external_type: github_stable
+release_type: stable
+release_tag: latest
+ls_branch: v11.x.x
+repo_vars:
+  - EXT_GIT_BRANCH = 'master'
+  - EXT_USER = 'airsonic-advanced'
+  - EXT_REPO = 'airsonic-advanced'
+  - BUILD_VERSION_ARG = 'AIRSONIC_ADVANCED_RELEASE'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-airsonic-advanced'
+  - CONTAINER_NAME = 'airsonic-advanced'
+  - DOCKERHUB_IMAGE = 'linuxserver/airsonic-advanced'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/airsonic-advanced'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/airsonic-advanced'
+  - DIST_IMAGE = 'ubuntu'
+  - MULTIARCH='true'
+  - CI='true'
+  - CI_WEB='true'
+  - CI_PORT='4040'
+  - CI_SSL='false'
+  - CI_DELAY='240'
+  - CI_DOCKERENV='TZ=US/Pacific'
+  - CI_AUTH='user:password'
+  - CI_WEBPATH=''
