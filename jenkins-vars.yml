@@ -7,7 +7,7 @@ release_type: stable
 release_tag: latest
 ls_branch: master
 repo_vars:
-  - EXT_GIT_BRANCH = 'master'
+  - EXT_GIT_BRANCH = 'stable/10.6.0'
   - EXT_USER = 'airsonic-advanced'
   - EXT_REPO = 'airsonic-advanced'
   - BUILD_VERSION_ARG = 'AIRSONIC_ADVANCED_RELEASE'
