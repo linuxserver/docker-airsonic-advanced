@@ -5,7 +5,7 @@ project_name: docker-airsonic-advanced
 external_type: github_stable
 release_type: stable
 release_tag: latest
-ls_branch: master
+ls_branch: stable/10.6.0
 repo_vars:
   - EXT_GIT_BRANCH = 'stable/10.6.0'
   - EXT_USER = 'airsonic-advanced'
