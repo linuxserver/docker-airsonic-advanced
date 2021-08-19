@@ -19,34 +19,34 @@ FROM lsiobase/ubuntu:arm32v7-focal
     jq && \
   echo "**** install runtime packages ****" && \
   apt-get install -y \
- 	--no-install-recommends \
- 	ca-certificates \
- 	ffmpeg \
- 	flac \
- 	fontconfig \
- 	lame \
- 	openjdk-11-jre \
- 	ttf-dejavu && \
+     --no-install-recommends \
+     ca-certificates \
+     ffmpeg \
+     flac \
+     fontconfig \
+     lame \
+     openjdk-11-jre \
+     ttf-dejavu && \
   echo "**** fix XXXsonic status page ****" && \
   find /etc -name "accessibility.properties" -exec rm -fv '{}' + && \
   find /usr -name "accessibility.properties" -exec rm -fv '{}' + && \
   echo "**** install airsonic advanced ****" && \
    if [ -z ${AIRSONIC_ADVANCED_RELEASE+x} ]; then \
-  	AIRSONIC_ADVANCED_RELEASE=$(curl -sX GET "https://api.github.com/repos/airsonic-advanced/airsonic-advanced/releases" \
-	| jq -r 'first(.[] | select(.prerelease == true)) | .tag_name'); \
+      AIRSONIC_ADVANCED_RELEASE=$(curl -sX GET "https://api.github.com/repos/airsonic-advanced/airsonic-advanced/releases" \
+    | jq -r 'first(.[] | select(.prerelease == true)) | .tag_name'); \
    fi && \
   mkdir -p \
- 	${AIRSONIC_ADVANCED_HOME} && \
+     ${AIRSONIC_ADVANCED_HOME} && \
   curl -o \
   ${AIRSONIC_ADVANCED_HOME}/airsonic.war -L \
- 	"https://github.com/airsonic-advanced/airsonic-advanced/releases/download/${AIRSONIC_ADVANCED_RELEASE}/airsonic.war" && \
+     "https://github.com/airsonic-advanced/airsonic-advanced/releases/download/${AIRSONIC_ADVANCED_RELEASE}/airsonic.war" && \
   echo "**** cleanup ****" && \
   apt-get -y purge \
     jq && \
   rm -rf \
- 	/tmp/* \
- 	/var/lib/apt/lists/* \
- 	/var/tmp/*
+     /tmp/* \
+     /var/lib/apt/lists/* \
+     /var/tmp/*
  
  # add local files
  COPY root/ /
