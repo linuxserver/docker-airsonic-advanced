@@ -1,0 +1,11 @@
+#!/usr/bin/with-contenv bash
+
+mkdir -p "${AIRSONIC_ADVANCED_SETTINGS}"/transcode
+
+if [[ ! -e "${AIRSONIC_ADVANCED_SETTINGS}"/transcode/ffmpeg || ! -e  "${AIRSONIC_ADVANCED_SETTINGS}"/transcode/flac || ! -e "${AIRSONIC_ADVANCED_SETTINGS}"/transcode/lame  ]]; then
+  ln -sf /usr/bin/ffmpeg "${AIRSONIC_ADVANCED_SETTINGS}"/transcode/
+  ln -sf /usr/bin/flac "${AIRSONIC_ADVANCED_SETTINGS}"/transcode/
+  ln -sf /usr/bin/lame "${AIRSONIC_ADVANCED_SETTINGS}"/transcode/
+fi
+
+chown -R abc:abc /config "${AIRSONIC_ADVANCED_SETTINGS}"  "${AIRSONIC_ADVANCED_HOME}"
