@@ -7,4 +7,7 @@ ARG AIRSONIC_ADVANCED_RELEASE
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="thespad"
 
+# add local files
+COPY root/ /
+
 # This Airsonic-Advanced image does not support 32 bit ARM due to lack of available OS packages
