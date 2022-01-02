@@ -29,10 +29,12 @@ Find us at:
 
 # [linuxserver/airsonic-advanced](https://github.com/linuxserver/docker-airsonic-advanced)
 
+[![Scarf.io pulls](https://scarf.sh/installs-badge/linuxserver-ci/linuxserver%2Fairsonic-advanced?color=94398d&label-color=555555&logo-color=ffffff&style=for-the-badge&package-type=docker)](https://scarf.sh/gateway/linuxserver-ci/docker/linuxserver%2Fairsonic-advanced)
 [![GitHub Stars](https://img.shields.io/github/stars/linuxserver/docker-airsonic-advanced.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/linuxserver/docker-airsonic-advanced)
 [![GitHub Release](https://img.shields.io/github/release/linuxserver/docker-airsonic-advanced.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&logo=github)](https://github.com/linuxserver/docker-airsonic-advanced/releases)
 [![GitHub Package Repository](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=GitHub%20Package&logo=github)](https://github.com/linuxserver/docker-airsonic-advanced/packages)
 [![GitLab Container Registry](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=GitLab%20Registry&logo=gitlab)](https://gitlab.com/linuxserver.io/docker-airsonic-advanced/container_registry)
+[![Quay.io](https://img.shields.io/static/v1.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=linuxserver.io&message=Quay.io)](https://quay.io/repository/linuxserver.io/airsonic-advanced)
 [![Docker Pulls](https://img.shields.io/docker/pulls/linuxserver/airsonic-advanced.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=pulls&logo=docker)](https://hub.docker.com/r/linuxserver/airsonic-advanced)
 [![Docker Stars](https://img.shields.io/docker/stars/linuxserver/airsonic-advanced.svg?color=94398d&labelColor=555555&logoColor=ffffff&style=for-the-badge&label=stars&logo=docker)](https://hub.docker.com/r/linuxserver/airsonic-advanced)
 [![Jenkins Build](https://img.shields.io/jenkins/build?labelColor=555555&logoColor=ffffff&style=for-the-badge&jobUrl=https%3A%2F%2Fci.linuxserver.io%2Fjob%2FDocker-Pipeline-Builders%2Fjob%2Fdocker-airsonic-advanced%2Fjob%2Fmaster%2F&logo=jenkins)](https://ci.linuxserver.io/job/Docker-Pipeline-Builders/job/docker-airsonic-advanced/job/master/)
@@ -46,7 +48,7 @@ Find us at:
 
 Our images support multiple architectures such as `x86-64`, `arm64` and `armhf`. We utilise the docker manifest for multi-platform awareness. More information is available from docker [here](https://github.com/docker/distribution/blob/master/docs/spec/manifest-v2-2.md#manifest-list) and our announcement [here](https://blog.linuxserver.io/2019/02/21/the-lsio-pipeline-project/).
 
-Simply pulling `ghcr.io/linuxserver/airsonic-advanced` should retrieve the correct image for your arch, but you can also pull specific arch images via tags.
+Simply pulling `lscr.io/linuxserver/airsonic-advanced` should retrieve the correct image for your arch, but you can also pull specific arch images via tags.
 
 The architectures supported by this image are:
 
@@ -54,7 +56,6 @@ The architectures supported by this image are:
 | :----: | --- |
 | x86-64 | amd64-latest |
 | arm64 | arm64v8-latest |
-| armhf | arm32v7-latest |
 
 ## Version Tags
 
@@ -62,8 +63,7 @@ This image provides various versions that are available via tags. `latest` tag u
 
 | Tag | Description |
 | :----: | --- |
-| latest | Latest v10 stable release of Airsonic-Advanced |
-| v11 | Latest v11 pre-release release of Airsonic-Advanced |
+| latest | Latest releases of Airsonic-Advanced |
 
 ## Application Setup
 
@@ -90,7 +90,7 @@ Here are some example snippets to help you get started creating a container.
 version: "2.1"
 services:
   airsonic-advanced:
-    image: ghcr.io/linuxserver/airsonic-advanced
+    image: lscr.io/linuxserver/airsonic-advanced
     container_name: airsonic-advanced
     environment:
       - PUID=1000
@@ -129,7 +129,7 @@ docker run -d \
   -v </path/to/other media>:/media `#optional` \
   --device /dev/snd:/dev/snd `#optional` \
   --restart unless-stopped \
-  ghcr.io/linuxserver/airsonic-advanced
+  lscr.io/linuxserver/airsonic-advanced
 ```
 
 ## Parameters
@@ -194,7 +194,7 @@ We publish various [Docker Mods](https://github.com/linuxserver/docker-mods) to 
 * container version number
   * `docker inspect -f '{{ index .Config.Labels "build_version" }}' airsonic-advanced`
 * image version number
-  * `docker inspect -f '{{ index .Config.Labels "build_version" }}' ghcr.io/linuxserver/airsonic-advanced`
+  * `docker inspect -f '{{ index .Config.Labels "build_version" }}' lscr.io/linuxserver/airsonic-advanced`
 
 ## Updating Info
 
@@ -212,7 +212,7 @@ Below are the instructions for updating containers:
 
 ### Via Docker Run
 
-* Update the image: `docker pull ghcr.io/linuxserver/airsonic-advanced`
+* Update the image: `docker pull lscr.io/linuxserver/airsonic-advanced`
 * Stop the running container: `docker stop airsonic-advanced`
 * Delete the container: `docker rm airsonic-advanced`
 * Recreate a new container with the same docker run parameters as instructed above (if mapped correctly to a host folder, your `/config` folder and settings will be preserved)
@@ -247,7 +247,7 @@ cd docker-airsonic-advanced
 docker build \
   --no-cache \
   --pull \
-  -t ghcr.io/linuxserver/airsonic-advanced:latest .
+  -t lscr.io/linuxserver/airsonic-advanced:latest .
 ```
 
 The ARM variants can be built on x86_64 hardware using `multiarch/qemu-user-static`
@@ -260,4 +260,4 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **16.08.21:** - Initial Release.
+* **02.01.22:** - Initial Release.
