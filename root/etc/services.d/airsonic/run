@@ -1,5 +1,9 @@
 #!/usr/bin/with-contenv bash
 
+if [[ "$(uname -m)" == "armv7l" ]]; then
+    sleep infinity
+fi
+
 # strip leading slash if present in set variable
 [[ -n "$CONTEXT_PATH" ]] && CONTEXT_PATH="${CONTEXT_PATH#/}"
 
