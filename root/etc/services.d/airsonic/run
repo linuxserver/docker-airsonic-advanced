@@ -14,6 +14,7 @@ cd "${AIRSONIC_ADVANCED_HOME}" || exit
 exec \
     s6-setuidgid abc \
     java \
+    -Dlog4j2.formatMsgNoLookups=true \
     -Dairsonic.defaultMusicFolder=/music \
     -Dairsonic.defaultPlaylistFolder=/playlists \
     -Dairsonic.defaultPodcastFolder=/podcasts \

@@ -18,7 +18,7 @@ available_architectures:
 development_versions: true
 development_versions_items:
   - { tag: "latest", desc: "Latest v10 stable release of Airsonic-Advanced" }
-  - { tag: "v11", desc: "Latest v11 pre-release release of Airsonic-Advanced" }
+  - { tag: "edge", desc: "Latest pre-release version of Airsonic-Advanced" }
 
 # container parameters
 common_param_env_vars_enabled: true
@@ -72,4 +72,4 @@ app_setup_block: |
 
 # changelog
 changelogs:
-  - { date: "16.08.21:", desc: "Initial Release." }
+  - { date: "02.01.22:", desc: "Initial Release." }
