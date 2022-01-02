@@ -24,7 +24,7 @@ RUN \
     flac \
     fontconfig \
     lame \
-    openjdk12-jre-headless \
+    openjdk11-jre-headless \
     ttf-dejavu && \
   echo "**** install airsonic advanced ****" && \
   if [ -z ${AIRSONIC_ADVANCED_RELEASE+x} ]; then \
