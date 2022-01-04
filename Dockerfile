@@ -13,9 +13,6 @@ AIRSONIC_ADVANCED_SETTINGS="/config" \
 LANG="C.UTF-8"
 
 RUN \
-  echo "**** install build packages ****" && \
-  apk add -U --upgrade --no-cache \
-    jq && \
   echo "**** install runtime packages ****" && \
   apk add -U --upgrade --no-cache \
     ca-certificates \
@@ -37,8 +34,6 @@ RUN \
   ${AIRSONIC_ADVANCED_HOME}/airsonic.war -L \
     "https://github.com/airsonic-advanced/airsonic-advanced/releases/download/${AIRSONIC_ADVANCED_RELEASE}/airsonic.war" && \
   echo "**** cleanup ****" && \
-  apk del \
-    jq && \
   rm -rf \
     /tmp/* \
     /var/tmp/*
