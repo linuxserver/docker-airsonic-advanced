@@ -17,15 +17,15 @@ cd "${AIRSONIC_ADVANCED_HOME}" || exit
 
 exec \
     s6-setuidgid abc \
-    java \
-    -Dlog4j2.formatMsgNoLookups=true \
-    -Dairsonic.defaultMusicFolder=/music \
-    -Dairsonic.defaultPlaylistFolder=/playlists \
-    -Dairsonic.defaultPodcastFolder=/podcasts \
-    -Dairsonic.home="${AIRSONIC_ADVANCED_SETTINGS}" \
-    -Djava.awt.headless=true \
-    -Dserver.contextPath="${URL_BASE}" \
-    -Dserver.host=0.0.0.0 \
-    -Dserver.port=4040 \
-    "${RUN_ARRAY[@]}" \
-    -jar airsonic.war
+        java \
+            -Dlog4j2.formatMsgNoLookups=true \
+            -Dairsonic.defaultMusicFolder=/music \
+            -Dairsonic.defaultPlaylistFolder=/playlists \
+            -Dairsonic.defaultPodcastFolder=/podcasts \
+            -Dairsonic.home="${AIRSONIC_ADVANCED_SETTINGS}" \
+            -Djava.awt.headless=true \
+            -Dserver.contextPath="${URL_BASE}" \
+            -Dserver.host=0.0.0.0 \
+            -Dserver.port=4040 \
+            "${RUN_ARRAY[@]}" \
+            -jar airsonic.war
