@@ -12,13 +12,11 @@ project_blurb_optional_extras_enabled: false
 available_architectures:
   - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
   - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
-  - { arch: "{{ arch_armhf }}", tag: "arm32v7-latest"}
 
 # development version
 development_versions: true
 development_versions_items:
-  - { tag: "latest", desc: "Latest v10 stable release of Airsonic-Advanced" }
-  - { tag: "v11", desc: "Latest v11 pre-release release of Airsonic-Advanced" }
+  - { tag: "latest", desc: "Latest releases of Airsonic-Advanced" }
 
 # container parameters
 common_param_env_vars_enabled: true
@@ -58,7 +56,7 @@ optional_block_1: false
 app_setup_block_enabled: true
 app_setup_block: |
 
-  We don't formally support upgrading from Airsonic to Airsonic Advanced, it may or may not work for you and we'd recommend making backups before attempting this.
+  We don't formally support upgrading from Airsonic to Airsonic Advanced, it may or may not work for you and we'd recommend making backups before attempting this. Following the upgrade you may experience a forced rescan of your library so take this into account if you have a lot of files.
 
   Please see notes about upgrading from v10 to v11 [here](https://github.com/airsonic-advanced/airsonic-advanced#usage)
 
@@ -72,4 +70,4 @@ app_setup_block: |
 
 # changelog
 changelogs:
-  - { date: "16.08.21:", desc: "Initial Release." }
+  - { date: "02.01.22:", desc: "Initial Release." }
