@@ -67,7 +67,7 @@ This image provides various versions that are available via tags. `latest` tag u
 
 ## Application Setup
 
-We don't formally support upgrading from Airsonic to Airsonic Advanced, it may or may not work for you and we'd recommend making backups before attempting this.
+We don't formally support upgrading from Airsonic to Airsonic Advanced, it may or may not work for you and we'd recommend making backups before attempting this. Following the upgrade you may experience a forced rescan of your library so take this into account if you have a lot of files.
 
 Please see notes about upgrading from v10 to v11 [here](https://github.com/airsonic-advanced/airsonic-advanced#usage)
 
