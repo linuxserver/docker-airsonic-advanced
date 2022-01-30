@@ -24,7 +24,7 @@ exec \
             -Dairsonic.defaultPodcastFolder=/podcasts \
             -Dairsonic.home="${AIRSONIC_ADVANCED_SETTINGS}" \
             -Djava.awt.headless=true \
-            -Dserver.contextPath="${URL_BASE}" \
+            -Dserver.servlet.context-path="${URL_BASE}" \
             -Dserver.host=0.0.0.0 \
             -Dserver.port=4040 \
             "${RUN_ARRAY[@]}" \
