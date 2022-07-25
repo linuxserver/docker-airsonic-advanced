@@ -261,4 +261,5 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **25.07.22:** - Add vorbis-tools.
 * **02.01.22:** - Initial Release.
