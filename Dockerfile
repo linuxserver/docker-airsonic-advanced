@@ -22,7 +22,8 @@ RUN \
     fontconfig \
     lame \
     openjdk14-jre \
-    ttf-dejavu && \
+    ttf-dejavu \
+    vorbis-tools && \
   echo "**** install airsonic advanced ****" && \
   if [ -z ${AIRSONIC_ADVANCED_RELEASE+x} ]; then \
     AIRSONIC_ADVANCED_RELEASE=$(curl -sX GET "https://api.github.com/repos/airsonic-advanced/airsonic-advanced/releases" \
