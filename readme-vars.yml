@@ -70,4 +70,5 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "25.07.22:", desc: "Add vorbis-tools." }
   - { date: "02.01.22:", desc: "Initial Release." }
