@@ -1,0 +1,26 @@
+#!/usr/bin/with-contenv bash
+
+# strip leading slash if present in set variable
+[[ -n "$CONTEXT_PATH" ]] && CONTEXT_PATH="${CONTEXT_PATH#/}"
+
+# set url base to / if variable not set, readding leading slash if variable is set.
+URL_BASE="/${CONTEXT_PATH}"
+
+# add option to pass runtime arguments
+IFS=" " read -r -a RUN_ARRAY <<< "$JAVA_OPTS"
+
+exec \
+    s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 4040" \
+        cd "${AIRSONIC_ADVANCED_HOME}" s6-setuidgid abc \
+            java \
+                -Dlog4j2.formatMsgNoLookups=true \
+                -Dairsonic.defaultMusicFolder=/music \
+                -Dairsonic.defaultPlaylistFolder=/playlists \
+                -Dairsonic.defaultPodcastFolder=/podcasts \
+                -Dairsonic.home="${AIRSONIC_ADVANCED_SETTINGS}" \
+                -Djava.awt.headless=true \
+                -Dserver.servlet.context-path="${URL_BASE}" \
+                -Dserver.host=0.0.0.0 \
+                -Dserver.port=4040 \
+                "${RUN_ARRAY[@]}" \
+                -jar airsonic.war

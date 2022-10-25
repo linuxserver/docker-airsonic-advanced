@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-alpine:3.15
+FROM ghcr.io/linuxserver/baseimage-alpine:3.16
 
 # set version label
 ARG BUILD_DATE
@@ -16,7 +16,6 @@ RUN \
   echo "**** install runtime packages ****" && \
   apk add -U --upgrade --no-cache \
     ca-certificates \
-    curl \
     ffmpeg \
     flac \
     fontconfig \

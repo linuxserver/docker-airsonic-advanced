@@ -70,5 +70,6 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "23.10.22:", desc: "Rebase to Alpine 3.16, migrate to s6v3." }
   - { date: "25.07.22:", desc: "Add vorbis-tools." }
   - { date: "02.01.22:", desc: "Initial Release." }
