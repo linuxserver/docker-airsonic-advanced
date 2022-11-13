@@ -83,8 +83,8 @@ libxtst-1.2.3-r3
 linux-pam-1.5.2-r0
 mbedtls-2.28.1-r0
 mkfontscale-1.2.2-r0
-musl-1.2.3-r1
-musl-utils-1.2.3-r0
+musl-1.2.3-r2
+musl-utils-1.2.3-r1
 ncurses-libs-6.3_p20220521-r0
 ncurses-terminfo-base-6.3_p20220521-r0
 nettle-3.7.3-r0
@@ -110,7 +110,7 @@ speexdsp-1.2.0-r0
 ssl_client-1.35.0-r17
 tdb-libs-1.4.6-r0
 ttf-dejavu-2.37-r1
-tzdata-2022c-r0
+tzdata-2022f-r1
 utmps-libs-0.1.2.0-r0
 v4l-utils-libs-1.22.1-r1
 vidstab-1.1.0-r1
