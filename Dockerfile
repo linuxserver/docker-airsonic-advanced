@@ -1,4 +1,6 @@
-FROM ghcr.io/linuxserver/baseimage-alpine:3.16
+# syntax=docker/dockerfile:1
+
+FROM ghcr.io/linuxserver/baseimage-alpine:3.17
 
 # set version label
 ARG BUILD_DATE
@@ -15,12 +17,11 @@ LANG="C.UTF-8"
 RUN \
   echo "**** install runtime packages ****" && \
   apk add -U --upgrade --no-cache \
-    ca-certificates \
     ffmpeg \
     flac \
     fontconfig \
     lame \
-    openjdk14-jre \
+    openjdk11-jre \
     ttf-dejavu \
     vorbis-tools && \
   echo "**** install airsonic advanced ****" && \
