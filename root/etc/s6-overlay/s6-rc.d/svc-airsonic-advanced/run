@@ -1,7 +1,10 @@
 #!/usr/bin/with-contenv bash
+# shellcheck shell=bash
 
 # strip leading slash if present in set variable
-[[ -n "$CONTEXT_PATH" ]] && CONTEXT_PATH="${CONTEXT_PATH#/}"
+if [[ -n "$CONTEXT_PATH" ]]; then
+    CONTEXT_PATH="${CONTEXT_PATH#/}"
+fi
 
 # set url base to / if variable not set, readding leading slash if variable is set.
 URL_BASE="/${CONTEXT_PATH}"
