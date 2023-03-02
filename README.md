@@ -96,14 +96,14 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Etc/UTC
-      - CONTEXT_PATH=<URL_BASE> #optional
-      - JAVA_OPTS=<options> #optional
+      - CONTEXT_PATH= #optional
+      - JAVA_OPTS= #optional
     volumes:
-      - </path/to/config>:/config
-      - </path/to/music>:/music
-      - </path/to/playlists>:/playlists
-      - </path/to/podcasts>:/podcasts
-      - </path/to/other media>:/media #optional
+      - /path/to/config:/config
+      - /path/to/music:/music
+      - /path/to/playlists:/playlists
+      - /path/to/podcasts:/podcasts
+      - /path/to/other media:/media #optional
     ports:
       - 4040:4040
     devices:
@@ -119,14 +119,14 @@ docker run -d \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Etc/UTC \
-  -e CONTEXT_PATH=<URL_BASE> `#optional` \
-  -e JAVA_OPTS=<options> `#optional` \
+  -e CONTEXT_PATH= `#optional` \
+  -e JAVA_OPTS= `#optional` \
   -p 4040:4040 \
-  -v </path/to/config>:/config \
-  -v </path/to/music>:/music \
-  -v </path/to/playlists>:/playlists \
-  -v </path/to/podcasts>:/podcasts \
-  -v </path/to/other media>:/media `#optional` \
+  -v /path/to/config:/config \
+  -v /path/to/music:/music \
+  -v /path/to/playlists:/playlists \
+  -v /path/to/podcasts:/podcasts \
+  -v /path/to/other media:/media `#optional` \
   --device /dev/snd:/dev/snd `#optional` \
   --restart unless-stopped \
   lscr.io/linuxserver/airsonic-advanced:latest
@@ -143,8 +143,8 @@ Container images are configured using parameters passed at runtime (such as thos
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
-| `-e CONTEXT_PATH=<URL_BASE>` | For setting url-base in reverse proxy setups. |
-| `-e JAVA_OPTS=<options>` | For passing additional java options. |
+| `-e CONTEXT_PATH=` | For setting url-base in reverse proxy setups. |
+| `-e JAVA_OPTS=` | For passing additional java options. |
 | `-v /config` | Configuration file location. |
 | `-v /music` | Location of music. |
 | `-v /playlists` | Location for playlists to be saved to. |
