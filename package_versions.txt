@@ -143,7 +143,7 @@ libblkid                            2.38.1-r1                                  a
 libbsd                              0.11.7-r0                                  apk           
 libbz2                              1.0.8-r4                                   apk           
 libc-utils                          0.7.2-r3                                   apk           
-libcrypto3                          3.0.8-r1                                   apk           
+libcrypto3                          3.0.8-r3                                   apk           
 libcurl                             7.88.1-r1                                  apk           
 libdav1d                            1.0.0-r2                                   apk           
 libdrm                              2.4.114-r0                                 apk           
@@ -167,7 +167,7 @@ libsndfile                          1.1.0-r2                                   a
 libsodium                           1.0.18-r2                                  apk           
 libsrt                              1.5.1-r0                                   apk           
 libssh                              0.10.4-r0                                  apk           
-libssl3                             3.0.8-r1                                   apk           
+libssl3                             3.0.8-r3                                   apk           
 libstdc++                           12.2.1_git20220924-r4                      apk           
 libtasn1                            4.19.0-r0                                  apk           
 libtheora                           1.1.1-r16                                  apk           
@@ -199,7 +199,7 @@ lucene-analyzers-common             8.9.0                                      j
 lucene-core                         8.9.0                                      java-archive  
 mariadb-java-client                 2.7.5                                      java-archive  
 maven-artifact                      3.6.0                                      java-archive  
-mbedtls                             2.28.2-r0                                  apk           
+mbedtls                             2.28.3-r0                                  apk           
 metrics-core                        4.1.31                                     java-archive  
 metrics-jmx                         4.1.31                                     java-archive  
 micrometer-core                     1.7.10                                     java-archive  
@@ -301,7 +301,7 @@ string                              1.1.0                                      j
 subsonic-rest-api                   11.0.0-SNAPSHOT                            java-archive  
 svt-av1-libs                        1.3.0-r0                                   apk           
 taglibs-standard-impl               1.2.5                                      java-archive  
-tdb-libs                            1.4.7-r0                                   apk           
+tdb-libs                            1.4.6-r0                                   apk           
 terracotta-utilities-tools          0.0.9                                      java-archive  
 tomcat-embed-core                   9.0.60                                     java-archive  
 tomcat-embed-el                     9.0.60                                     java-archive  
@@ -309,7 +309,7 @@ tomcat-embed-jasper                 9.0.60                                     j
 tomcat-embed-websocket              9.0.60                                     java-archive  
 txw2                                2.3.3                                      java-archive  
 txw2                                2.3.6                                      java-archive  
-tzdata                              2022f-r1                                   apk           
+tzdata                              2023b-r1                                   apk           
 utmps-libs                          0.1.2.0-r1                                 apk           
 v4l-utils-libs                      1.22.1-r2                                  apk           
 vidstab                             1.1.0-r2                                   apk           
