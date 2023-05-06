@@ -56,7 +56,6 @@ cxf-rt-ws-policy                    3.4.3                                      j
 cxf-rt-wsdl                         3.4.3                                      java-archive  
 dbus-libs                           1.14.4-r0                                  apk           
 ecj                                 3.18.0                                     java-archive  
-ehcache                             3.9.9                                      java-archive  
 ehcache-107                         3.9.9                                      java-archive  
 ehcache-api                         3.9.9                                      java-archive  
 ehcache-core                        3.9.9                                      java-archive  
@@ -166,7 +165,7 @@ librist                             0.2.7-r0                                   a
 libsndfile                          1.1.0-r2                                   apk           
 libsodium                           1.0.18-r2                                  apk           
 libsrt                              1.5.1-r0                                   apk           
-libssh                              0.10.4-r0                                  apk           
+libssh                              0.10.5-r0                                  apk           
 libssl3                             3.0.8-r4                                   apk           
 libstdc++                           12.2.1_git20220924-r4                      apk           
 libtasn1                            4.19.0-r0                                  apk           
