@@ -21,8 +21,8 @@ brotli-libs                         1.0.9-r9                                   a
 busybox                             1.35.0                                     binary        
 busybox                             1.35.0-r29                                 apk           
 busybox-binsh                       1.35.0-r29                                 apk           
-ca-certificates                     20220614-r4                                apk           
-ca-certificates-bundle              20220614-r4                                apk           
+ca-certificates                     20230506-r0                                apk           
+ca-certificates-bundle              20230506-r0                                apk           
 cache-api                           1.1.1                                      java-archive  
 castor-core                         1.3.3                                      java-archive  
 castor-xml                          1.3.3                                      java-archive  
