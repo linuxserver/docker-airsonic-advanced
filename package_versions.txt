@@ -56,7 +56,6 @@ cxf-rt-ws-policy                    3.4.3                                      j
 cxf-rt-wsdl                         3.4.3                                      java-archive  
 dbus-libs                           1.14.4-r0                                  apk           
 ecj                                 3.18.0                                     java-archive  
-ehcache                             3.9.9                                      java-archive  
 ehcache-107                         3.9.9                                      java-archive  
 ehcache-api                         3.9.9                                      java-archive  
 ehcache-core                        3.9.9                                      java-archive  
@@ -144,7 +143,7 @@ libbsd                              0.11.7-r0                                  a
 libbz2                              1.0.8-r4                                   apk           
 libc-utils                          0.7.2-r3                                   apk           
 libcrypto3                          3.0.8-r4                                   apk           
-libcurl                             8.0.1-r0                                   apk           
+libcurl                             8.1.0-r1                                   apk           
 libdav1d                            1.0.0-r2                                   apk           
 libdrm                              2.4.114-r0                                 apk           
 libexpat                            2.5.0-r0                                   apk           
@@ -204,7 +203,7 @@ metrics-core                        4.1.31                                     j
 metrics-jmx                         4.1.31                                     java-archive  
 micrometer-core                     1.7.10                                     java-archive  
 mkfontscale                         1.2.2-r1                                   apk           
-musl                                1.2.3-r4                                   apk           
+musl                                1.2.3-r5                                   apk           
 musl-utils                          1.2.3-r4                                   apk           
 mysql-connector-java                8.0.28                                     java-archive  
 natpmp                              0.1                                        java-archive  
