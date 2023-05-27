@@ -43,7 +43,7 @@ commons-lang3                       3.12.0                                     j
 commons-text                        1.9                                        java-archive  
 core                                2.0.0-RELEASE                              java-archive  
 coreutils                           9.1-r0                                     apk           
-curl                                8.0.1-r0                                   apk           
+curl                                8.1.0-r1                                   apk           
 cxf-core                            3.4.3                                      java-archive  
 cxf-rt-bindings-soap                3.4.3                                      java-archive  
 cxf-rt-bindings-xml                 3.4.3                                      java-archive  
@@ -56,7 +56,6 @@ cxf-rt-ws-policy                    3.4.3                                      j
 cxf-rt-wsdl                         3.4.3                                      java-archive  
 dbus-libs                           1.14.4-r0                                  apk           
 ecj                                 3.18.0                                     java-archive  
-ehcache                             3.9.9                                      java-archive  
 ehcache-107                         3.9.9                                      java-archive  
 ehcache-api                         3.9.9                                      java-archive  
 ehcache-core                        3.9.9                                      java-archive  
@@ -75,7 +74,7 @@ freetype                            2.12.1-r0                                  a
 fribidi                             1.0.12-r0                                  apk           
 geronimo-jta_1.1_spec               1.1.1                                      java-archive  
 giflib                              5.2.1-r2                                   apk           
-glib                                2.74.6-r0                                  apk           
+glib                                2.74.7-r0                                  apk           
 gmp                                 6.2.1-r2                                   apk           
 gnutls                              3.7.8-r3                                   apk           
 graphite2                           1.3.14-r2                                  apk           
@@ -144,7 +143,7 @@ libbsd                              0.11.7-r0                                  a
 libbz2                              1.0.8-r4                                   apk           
 libc-utils                          0.7.2-r3                                   apk           
 libcrypto3                          3.0.8-r4                                   apk           
-libcurl                             8.1.0-r1                                   apk           
+libcurl                             8.1.1-r1                                   apk           
 libdav1d                            1.0.0-r2                                   apk           
 libdrm                              2.4.114-r0                                 apk           
 libexpat                            2.5.0-r0                                   apk           
@@ -176,7 +175,7 @@ libva                               2.16.0-r0                                  a
 libvdpau                            1.5-r0                                     apk           
 libvorbis                           1.3.7-r0                                   apk           
 libvpx                              1.12.0-r1                                  apk           
-libwebp                             1.2.4-r1                                   apk           
+libwebp                             1.2.4-r2                                   apk           
 libx11                              1.8.4-r0                                   apk           
 libxau                              1.0.10-r0                                  apk           
 libxcb                              1.15-r0                                    apk           
@@ -205,11 +204,11 @@ metrics-jmx                         4.1.31                                     j
 micrometer-core                     1.7.10                                     java-archive  
 mkfontscale                         1.2.2-r1                                   apk           
 musl                                1.2.3-r5                                   apk           
-musl-utils                          1.2.3-r4                                   apk           
+musl-utils                          1.2.3-r5                                   apk           
 mysql-connector-java                8.0.28                                     java-archive  
 natpmp                              0.1                                        java-archive  
-ncurses-libs                        6.3_p20221119-r0                           apk           
-ncurses-terminfo-base               6.3_p20221119-r0                           apk           
+ncurses-libs                        6.3_p20221119-r1                           apk           
+ncurses-terminfo-base               6.3_p20221119-r1                           apk           
 neethi                              3.1.1                                      java-archive  
 netcat-openbsd                      1.130-r4                                   apk           
 nettle                              3.8.1-r0                                   apk           
