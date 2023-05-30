@@ -14,9 +14,7 @@ available_architectures:
   - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
 
 # development version
-development_versions: true
-development_versions_items:
-  - { tag: "latest", desc: "Latest releases of Airsonic-Advanced" }
+development_versions: false
 
 # container parameters
 common_param_env_vars_enabled: true
@@ -50,7 +48,6 @@ opt_param_device_map: true
 opt_param_devices:
   - { device_path: "/dev/snd", device_host_path: "/dev/snd", desc: "Only needed to pass your host sound device to Airsonic's Java jukebox player." }
 opt_cap_add_param: false
-optional_block_1: false
 
 # application setup block
 app_setup_block_enabled: true
@@ -70,6 +67,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "30.05.23:", desc: "Rebase to Alpine 3.18." }
   - { date: "11.02.23:", desc: "Rebase to Alpine 3.17." }
   - { date: "23.10.22:", desc: "Rebase to Alpine 3.16, migrate to s6v3." }
   - { date: "25.07.22:", desc: "Add vorbis-tools." }

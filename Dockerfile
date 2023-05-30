@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine:3.17
+FROM ghcr.io/linuxserver/baseimage-alpine:3.18
 
 # set version label
 ARG BUILD_DATE
@@ -16,7 +16,7 @@ LANG="C.UTF-8"
 
 RUN \
   echo "**** install runtime packages ****" && \
-  apk add -U --upgrade --no-cache \
+  apk add --no-cache \
     ffmpeg \
     flac \
     fontconfig \
@@ -36,8 +36,7 @@ RUN \
     "https://github.com/airsonic-advanced/airsonic-advanced/releases/download/${AIRSONIC_ADVANCED_RELEASE}/airsonic.war" && \
   echo "**** cleanup ****" && \
   rm -rf \
-    /tmp/* \
-    /var/tmp/*
+    /tmp/*
 
 # add local files
 COPY root/ /
