@@ -155,7 +155,7 @@ libbz2                              1.0.8-r5                                   a
 libc-utils                          0.7.2-r5                                   apk           
 libcrypto3                          3.1.0-r4                                   apk           
 libcurl                             8.1.1-r1                                   apk           
-libdav1d                            1.2.0-r0                                   apk           
+libdav1d                            1.2.1-r0                                   apk           
 libdrm                              2.4.115-r4                                 apk           
 libexpat                            2.5.0-r1                                   apk           
 libffi                              3.4.4-r2                                   apk           
@@ -239,7 +239,7 @@ oniguruma                           6.9.8-r1                                   a
 openjdk11-jre                       11.0.19_p7-r1                              apk           
 openjdk11-jre-headless              11.0.19_p7-r1                              apk           
 opus                                1.4-r0                                     apk           
-orc                                 0.4.33-r1                                  apk           
+orc                                 0.4.34-r0                                  apk           
 org.eclipse.persistence.asm         2.7.8                                      java-archive  
 org.eclipse.persistence.core        2.7.8                                      java-archive  
 org.eclipse.persistence.moxy        2.7.8                                      java-archive  
