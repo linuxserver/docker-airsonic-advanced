@@ -56,7 +56,6 @@ cxf-rt-ws-policy                    3.4.3                                      j
 cxf-rt-wsdl                         3.4.3                                      java-archive  
 dbus-libs                           1.14.6-r3                                  apk           
 ecj                                 3.18.0                                     java-archive  
-ehcache                             3.9.9                                      java-archive  
 ehcache-107                         3.9.9                                      java-archive  
 ehcache-api                         3.9.9                                      java-archive  
 ehcache-core                        3.9.9                                      java-archive  
