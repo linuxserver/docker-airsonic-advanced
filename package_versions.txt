@@ -7,8 +7,8 @@ airsonic-sonos-api                  11.0.0-SNAPSHOT                            j
 alpine-baselayout                   3.4.3-r1                                   apk           
 alpine-baselayout-data              3.4.3-r1                                   apk           
 alpine-keys                         2.4-r1                                     apk           
-alpine-release                      3.18.0-r0                                  apk           
-alsa-lib                            1.2.9-r0                                   apk           
+alpine-release                      3.18.2-r0                                  apk           
+alsa-lib                            1.2.9-r1                                   apk           
 ant                                 1.10.5                                     java-archive  
 ant-launcher                        1.10.5                                     java-archive  
 aom-libs                            3.6.1-r0                                   apk           
@@ -65,17 +65,17 @@ ehcache-xml                         3.9.9                                      j
 encodings                           1.0.7-r1                                   apk           
 error_prone_annotations             2.3.4                                      java-archive  
 failureaccess                       1.0.1                                      java-archive  
-ffmpeg                              6.0-r14                                    apk           
-ffmpeg-libavcodec                   6.0-r14                                    apk           
-ffmpeg-libavdevice                  6.0-r14                                    apk           
-ffmpeg-libavfilter                  6.0-r14                                    apk           
-ffmpeg-libavformat                  6.0-r14                                    apk           
-ffmpeg-libavutil                    6.0-r14                                    apk           
-ffmpeg-libpostproc                  6.0-r14                                    apk           
-ffmpeg-libswresample                6.0-r14                                    apk           
-ffmpeg-libswscale                   6.0-r14                                    apk           
-flac                                1.4.2-r2                                   apk           
-flac-libs                           1.4.2-r2                                   apk           
+ffmpeg                              6.0-r15                                    apk           
+ffmpeg-libavcodec                   6.0-r15                                    apk           
+ffmpeg-libavdevice                  6.0-r15                                    apk           
+ffmpeg-libavfilter                  6.0-r15                                    apk           
+ffmpeg-libavformat                  6.0-r15                                    apk           
+ffmpeg-libavutil                    6.0-r15                                    apk           
+ffmpeg-libpostproc                  6.0-r15                                    apk           
+ffmpeg-libswresample                6.0-r15                                    apk           
+ffmpeg-libswscale                   6.0-r15                                    apk           
+flac                                1.4.3-r0                                   apk           
+flac-libs                           1.4.3-r0                                   apk           
 font-dejavu                         2.37-r5                                    apk           
 fontconfig                          2.14.2-r3                                  apk           
 freetype                            2.13.0-r5                                  apk           
@@ -172,7 +172,7 @@ libmd                               1.0.4-r2                                   a
 libmount                            2.38.1-r8                                  apk           
 libncursesw                         6.4_p20230506-r0                           apk           
 libogg                              1.3.5-r4                                   apk           
-libopenmpt                          0.7.1-r0                                   apk           
+libopenmpt                          0.7.2-r0                                   apk           
 libpciaccess                        0.17-r2                                    apk           
 libplacebo                          5.264.1-r1                                 apk           
 libpng                              1.6.39-r3                                  apk           
@@ -276,7 +276,7 @@ seamless-swing                      1.1.0                                      j
 seamless-util                       1.1.0                                      java-archive  
 seamless-xml                        1.1.0                                      java-archive  
 shaderc                             2023.3-r1                                  apk           
-shadow                              4.13-r2                                    apk           
+shadow                              4.13-r4                                    apk           
 sizeof                              0.4.0                                      java-archive  
 sizeof-agent                                                                   java-archive  
 skalibs                             2.13.1.1-r1                                apk           
@@ -320,7 +320,7 @@ stax-ex                             1.8.2                                      j
 stax2-api                           4.2.1                                      java-archive  
 string                              1.1.0                                      java-archive  
 subsonic-rest-api                   11.0.0-SNAPSHOT                            java-archive  
-svt-av1-libs                        1.5.0-r0                                   apk           
+svt-av1-libs                        1.6.0-r0                                   apk           
 taglibs-standard-impl               1.2.5                                      java-archive  
 tdb-libs                            1.4.8-r1                                   apk           
 terracotta-utilities-tools          0.0.9                                      java-archive  
