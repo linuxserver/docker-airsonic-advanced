@@ -56,7 +56,6 @@ cxf-rt-ws-policy                    3.4.3                                      j
 cxf-rt-wsdl                         3.4.3                                      java-archive  
 dbus-libs                           1.14.8-r0                                  apk           
 ecj                                 3.18.0                                     java-archive  
-ehcache                             3.9.9                                      java-archive  
 ehcache-107                         3.9.9                                      java-archive  
 ehcache-api                         3.9.9                                      java-archive  
 ehcache-core                        3.9.9                                      java-archive  
@@ -120,7 +119,7 @@ jakarta.xml.bind-api                2.3.3                                      j
 jakarta.xml.soap-api                1.4.2                                      java-archive  
 jakarta.xml.ws-api                  2.3.3                                      java-archive  
 jaudiotagger                        3.0.1                                      java-archive  
-java                                11.0.19+7-alpine-r1                        binary        
+java                                11.0.20+8-alpine-r0                        binary        
 java-cacerts                        1.0-r1                                     apk           
 java-common                         0.5-r0                                     apk           
 java-jwt                            3.15.0                                     java-archive  
@@ -134,7 +133,7 @@ jboss-logging                       3.4.3.Final                                j
 jboss-rmi-api_1.0_spec              1.0.6.Final                                java-archive  
 jdom                                2.0.2                                      java-archive  
 jq                                  1.6-r3                                     apk           
-jrt-fs                              11.0.19                                    java-archive  
+jrt-fs                              11.0.20                                    java-archive  
 jsoup                               1.15.3                                     java-archive  
 jsr305                              3.0.2                                      java-archive  
 jul-to-slf4j                        1.7.36                                     java-archive  
@@ -153,7 +152,7 @@ libbluray                           1.3.4-r0                                   a
 libbsd                              0.11.7-r1                                  apk           
 libbz2                              1.0.8-r5                                   apk           
 libc-utils                          0.7.2-r5                                   apk           
-libcrypto3                          3.1.1-r1                                   apk           
+libcrypto3                          3.1.1-r2                                   apk           
 libcurl                             8.1.2-r0                                   apk           
 libdav1d                            1.2.1-r0                                   apk           
 libdrm                              2.4.115-r4                                 apk           
@@ -183,7 +182,7 @@ libsndfile                          1.2.0-r2                                   a
 libsodium                           1.0.18-r3                                  apk           
 libsrt                              1.5.2-r0                                   apk           
 libssh                              0.10.5-r0                                  apk           
-libssl3                             3.1.1-r1                                   apk           
+libssl3                             3.1.1-r2                                   apk           
 libstdc++                           12.2.1_git20220924-r10                     apk           
 libtasn1                            4.19.0-r1                                  apk           
 libtheora                           1.1.1-r17                                  apk           
@@ -236,8 +235,8 @@ numactl                             2.0.16-r4                                  a
 offheap-store                       2.5.2                                      java-archive  
 onevpl-libs                         2023.2.1-r0                                apk           
 oniguruma                           6.9.8-r1                                   apk           
-openjdk11-jre                       11.0.19_p7-r1                              apk           
-openjdk11-jre-headless              11.0.19_p7-r1                              apk           
+openjdk11-jre                       11.0.20_p8-r0                              apk           
+openjdk11-jre-headless              11.0.20_p8-r0                              apk           
 opus                                1.4-r0                                     apk           
 orc                                 0.4.34-r0                                  apk           
 org.eclipse.persistence.asm         2.7.8                                      java-archive  
