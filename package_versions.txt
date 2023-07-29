@@ -43,7 +43,7 @@ commons-lang3                       3.12.0                                     j
 commons-text                        1.9                                        java-archive  
 core                                2.0.0-RELEASE                              java-archive  
 coreutils                           9.3-r1                                     apk           
-curl                                8.1.2-r0                                   apk           
+curl                                8.2.0-r1                                   apk           
 cxf-core                            3.4.3                                      java-archive  
 cxf-rt-bindings-soap                3.4.3                                      java-archive  
 cxf-rt-bindings-xml                 3.4.3                                      java-archive  
@@ -56,6 +56,7 @@ cxf-rt-ws-policy                    3.4.3                                      j
 cxf-rt-wsdl                         3.4.3                                      java-archive  
 dbus-libs                           1.14.8-r0                                  apk           
 ecj                                 3.18.0                                     java-archive  
+ehcache                             3.9.9                                      java-archive  
 ehcache-107                         3.9.9                                      java-archive  
 ehcache-api                         3.9.9                                      java-archive  
 ehcache-core                        3.9.9                                      java-archive  
@@ -152,8 +153,8 @@ libbluray                           1.3.4-r0                                   a
 libbsd                              0.11.7-r1                                  apk           
 libbz2                              1.0.8-r5                                   apk           
 libc-utils                          0.7.2-r5                                   apk           
-libcrypto3                          3.1.1-r2                                   apk           
-libcurl                             8.1.2-r0                                   apk           
+libcrypto3                          3.1.1-r3                                   apk           
+libcurl                             8.2.0-r1                                   apk           
 libdav1d                            1.2.1-r0                                   apk           
 libdrm                              2.4.115-r4                                 apk           
 libexpat                            2.5.0-r1                                   apk           
@@ -182,7 +183,7 @@ libsndfile                          1.2.0-r2                                   a
 libsodium                           1.0.18-r3                                  apk           
 libsrt                              1.5.2-r0                                   apk           
 libssh                              0.10.5-r0                                  apk           
-libssl3                             3.1.1-r2                                   apk           
+libssl3                             3.1.1-r3                                   apk           
 libstdc++                           12.2.1_git20220924-r10                     apk           
 libtasn1                            4.19.0-r1                                  apk           
 libtheora                           1.1.1-r17                                  apk           
@@ -230,7 +231,7 @@ ncurses-terminfo-base               6.4_p20230506-r0                           a
 neethi                              3.1.1                                      java-archive  
 netcat-openbsd                      1.219-r1                                   apk           
 nettle                              3.8.1-r2                                   apk           
-nghttp2-libs                        1.53.0-r0                                  apk           
+nghttp2-libs                        1.55.1-r0                                  apk           
 numactl                             2.0.16-r4                                  apk           
 offheap-store                       2.5.2                                      java-archive  
 onevpl-libs                         2023.2.1-r0                                apk           
