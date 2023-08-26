@@ -2,6 +2,7 @@ NAME                                VERSION                                    T
 HdrHistogram                        2.1.12                                     java-archive  
 HikariCP                            4.0.3                                      java-archive  
 LatencyUtils                        2.0.3                                      java-archive  
+airsonic                            11.0.0-SNAPSHOT                            java-archive  
 airsonic-main                       11.0.0-SNAPSHOT                            java-archive  
 airsonic-sonos-api                  11.0.0-SNAPSHOT                            java-archive  
 alpine-baselayout                   3.4.3-r1                                   apk           
