@@ -174,7 +174,7 @@ libopenmpt                          0.7.2-r0                                   a
 libpciaccess                        0.17-r2                                    apk           
 libplacebo                          5.264.1-r1                                 apk           
 libpng                              1.6.39-r3                                  apk           
-libproc2                            4.0.3-r1                                   apk           
+libproc2                            4.0.4-r0                                   apk           
 libpulse                            16.1-r10                                   apk           
 librist                             0.2.7-r0                                   apk           
 libsndfile                          1.2.0-r2                                   apk           
@@ -263,7 +263,7 @@ playlist-wpl                        2.0.0-RELEASE                              j
 playlist-xspf                       2.0.0-RELEASE                              java-archive  
 plexus-utils                        3.1.0                                      java-archive  
 postgresql                          42.2.25                                    java-archive  
-procps-ng                           4.0.3-r1                                   apk           
+procps-ng                           4.0.4-r0                                   apk           
 readline                            8.2.1-r1                                   apk           
 recaptchav2-java                    1.0.4                                      java-archive  
 saaj-impl                           1.5.3                                      java-archive  
