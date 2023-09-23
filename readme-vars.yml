@@ -6,6 +6,7 @@ project_url: "https://github.com/airsonic-advanced/airsonic-advanced"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/airsonic-banner.png"
 project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) is a free, web-based media streamer, providing ubiquitious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_categories: "Music"
 project_blurb_optional_extras_enabled: false
 
 # supported architectures
