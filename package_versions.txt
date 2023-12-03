@@ -7,7 +7,7 @@ airsonic-sonos-api                  11.0.0-SNAPSHOT                            j
 alpine-baselayout                   3.4.3-r1                                   apk           
 alpine-baselayout-data              3.4.3-r1                                   apk           
 alpine-keys                         2.4-r1                                     apk           
-alpine-release                      3.18.4-r0                                  apk           
+alpine-release                      3.18.5-r0                                  apk           
 alsa-lib                            1.2.9-r1                                   apk           
 ant                                 1.10.5                                     java-archive  
 ant-launcher                        1.10.5                                     java-archive  
