@@ -44,7 +44,7 @@ commons-text                        1.9                                        j
 core                                2.0.0-RELEASE                              java-archive  
 core                                2.7.8                                      java-archive  
 coreutils                           9.3-r1                                     apk           
-curl                                8.4.0-r0                                   apk           
+curl                                8.5.0-r0                                   apk           
 cxf-core                            3.4.3                                      java-archive  
 cxf-rt-bindings-soap                3.4.3                                      java-archive  
 cxf-rt-bindings-xml                 3.4.3                                      java-archive  
@@ -154,7 +154,7 @@ libbsd                              0.11.7-r1                                  a
 libbz2                              1.0.8-r5                                   apk           
 libc-utils                          0.7.2-r5                                   apk           
 libcrypto3                          3.1.4-r1                                   apk           
-libcurl                             8.4.0-r0                                   apk           
+libcurl                             8.5.0-r0                                   apk           
 libdav1d                            1.2.1-r0                                   apk           
 libdrm                              2.4.115-r4                                 apk           
 libexpat                            2.5.0-r1                                   apk           
