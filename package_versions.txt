@@ -133,7 +133,7 @@ jaxb-runtime                        2.3.6                                      j
 jboss-logging                       3.4.3.Final                                java-archive  
 jboss-rmi-api_1.0_spec              1.0.6.Final                                java-archive  
 jdom                                2.0.2                                      java-archive  
-jq                                  1.6-r3                                     apk           
+jq                                  1.6-r4                                     apk           
 jrt-fs                              11.0.21                                    java-archive  
 jsoup                               1.15.3                                     java-archive  
 jsr305                              3.0.2                                      java-archive  
