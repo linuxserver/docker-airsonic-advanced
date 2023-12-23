@@ -13,7 +13,6 @@ ant                                 1.10.5                                     j
 ant-launcher                        1.10.5                                     java-archive  
 aom-libs                            3.6.1-r0                                   apk           
 apk-tools                           2.14.0-r2                                  apk           
-asm                                 2.7.8                                      java-archive  
 asm                                 9.0                                        java-archive  
 aspectjweaver                       1.9.7                                      java-archive  
 bash                                5.2.15-r5                                  apk           
@@ -42,7 +41,6 @@ commons-lang                        2.6                                        j
 commons-lang3                       3.12.0                                     java-archive  
 commons-text                        1.9                                        java-archive  
 core                                2.0.0-RELEASE                              java-archive  
-core                                2.7.8                                      java-archive  
 coreutils                           9.3-r1                                     apk           
 curl                                8.5.0-r0                                   apk           
 cxf-core                            3.4.3                                      java-archive  
@@ -222,7 +220,6 @@ metrics-core                        4.1.31                                     j
 metrics-jmx                         4.1.31                                     java-archive  
 micrometer-core                     1.7.10                                     java-archive  
 mkfontscale                         1.2.2-r3                                   apk           
-moxy                                2.7.8                                      java-archive  
 mpg123-libs                         1.31.3-r1                                  apk           
 musl                                1.2.4-r2                                   apk           
 musl-utils                          1.2.4-r2                                   apk           
@@ -241,6 +238,9 @@ openjdk11-jre                       11.0.21_p9-r0                              a
 openjdk11-jre-headless              11.0.21_p9-r0                              apk           
 opus                                1.4-r0                                     apk           
 orc                                 0.4.34-r0                                  apk           
+org.eclipse.persistence.asm         2.7.8                                      java-archive  
+org.eclipse.persistence.core        2.7.8                                      java-archive  
+org.eclipse.persistence.moxy        2.7.8                                      java-archive  
 p11-kit                             0.24.1-r2                                  apk           
 p11-kit-trust                       0.24.1-r2                                  apk           
 pcre2                               10.42-r1                                   apk           
