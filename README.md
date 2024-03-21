@@ -90,7 +90,7 @@ services:
       - CONTEXT_PATH= #optional
       - JAVA_OPTS= #optional
     volumes:
-      - /path/to/config:/config
+      - /path/to/airsonic-advanced/config:/config
       - /path/to/music:/music
       - /path/to/playlists:/playlists
       - /path/to/podcasts:/podcasts
@@ -113,7 +113,7 @@ docker run -d \
   -e CONTEXT_PATH= `#optional` \
   -e JAVA_OPTS= `#optional` \
   -p 4040:4040 \
-  -v /path/to/config:/config \
+  -v /path/to/airsonic-advanced/config:/config \
   -v /path/to/music:/music \
   -v /path/to/playlists:/playlists \
   -v /path/to/podcasts:/podcasts \
@@ -303,6 +303,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **20.03.24:** - Rebase to Alpine 3.19.
 * **30.05.23:** - Rebase to Alpine 3.18.
 * **11.02.23:** - Rebase to Alpine 3.17.
 * **23.10.22:** - Rebase to Alpine 3.16, migrate to s6v3.
