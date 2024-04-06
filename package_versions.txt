@@ -31,7 +31,7 @@ bitvec_helpers                      3.1.2                                      r
 brotli-libs                         1.1.0-r1                                   apk             
 busybox                             1.36.1-r15                                 apk             
 busybox-binsh                       1.36.1-r15                                 apk             
-c-ares                              1.24.0-r1                                  apk             
+c-ares                              1.27.0-r0                                  apk             
 ca-certificates                     20240226-r0                                apk             
 ca-certificates-bundle              20240226-r0                                apk             
 cache-api                           1.1.1                                      java-archive    
@@ -265,7 +265,7 @@ lucene-core                         8.9.0                                      j
 mariadb-java-client                 2.7.5                                      java-archive    
 maven-artifact                      3.6.0                                      java-archive    
 maybe-rayon                         0.1.1                                      rust-crate      
-mbedtls                             2.28.7-r0                                  apk             
+mbedtls                             2.28.8-r0                                  apk             
 memchr                              2.5.0                                      rust-crate      
 memoffset                           0.8.0                                      rust-crate      
 metrics-core                        4.1.31                                     java-archive    
