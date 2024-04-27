@@ -170,7 +170,7 @@ jboss-logging                       3.4.3.Final                                j
 jboss-rmi-api_1.0_spec              1.0.6.Final                                java-archive    
 jdom                                2.0.2                                      java-archive    
 jq                                  1.7.1-r0                                   apk             
-jrt-fs                              11.0.22                                    java-archive    
+jrt-fs                              11.0.23                                    java-archive    
 jsoup                               1.15.3                                     java-archive    
 jsr305                              3.0.2                                      java-archive    
 jul-to-slf4j                        1.7.36                                     java-archive    
@@ -297,8 +297,8 @@ offheap-store                       2.5.2                                      j
 once_cell                           1.17.1                                     rust-crate      
 onevpl-libs                         2023.3.1-r2                                apk             
 oniguruma                           6.9.9-r0                                   apk             
-openjdk11-jre                       11.0.22_p7-r0                              apk             
-openjdk11-jre-headless              11.0.22_p7-r0                              apk             
+openjdk11-jre                       11.0.23_p9-r0                              apk             
+openjdk11-jre-headless              11.0.23_p9-r0                              apk             
 opus                                1.4-r0                                     apk             
 orc                                 0.4.34-r0                                  apk             
 org.eclipse.persistence.asm         2.7.8                                      java-archive    
