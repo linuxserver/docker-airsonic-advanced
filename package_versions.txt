@@ -116,7 +116,7 @@ funty                               2.0.0                                      r
 geronimo-jta_1.1_spec               1.1.1                                      java-archive    
 getrandom                           0.2.9                                      rust-crate      
 giflib                              5.2.2-r0                                   apk             
-glib                                2.78.5-r0                                  apk             
+glib                                2.78.6-r0                                  apk             
 glslang-libs                        1.3.261.1-r0                               apk             
 graphite2                           1.3.14-r6                                  apk             
 guava                               30.1-jre                                   java-archive    
