@@ -19,7 +19,6 @@ development_versions: false
 # container parameters
 common_param_env_vars_enabled: true
 param_container_name: "{{ project_name }}"
-param_usage_include_net: false
 param_usage_include_vols: true
 param_volumes:
   - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Configuration file location." }
@@ -29,8 +28,6 @@ param_volumes:
 param_usage_include_ports: true
 param_ports:
   - { external_port: "4040", internal_port: "4040", port_desc: "WebUI" }
-param_device_map: false
-cap_add_param: false
 
 # optional container parameters
 opt_param_usage_include_env: true
@@ -40,11 +37,9 @@ opt_param_env_vars:
 opt_param_usage_include_vols: true
 opt_param_volumes:
   - { vol_path: "/media", vol_host_path: "/path/to/other media", desc: "Location of other media." }
-opt_param_usage_include_ports: false
 opt_param_device_map: true
 opt_param_devices:
   - { device_path: "/dev/snd", device_host_path: "/dev/snd", desc: "Only needed to pass your host sound device to Airsonic's Java jukebox player." }
-opt_cap_add_param: false
 
 # application setup block
 app_setup_block_enabled: true
@@ -64,6 +59,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "24.05.24:", desc: "Rebase to Alpine 3.20." }
   - { date: "20.03.24:", desc: "Rebase to Alpine 3.19." }
   - { date: "30.05.23:", desc: "Rebase to Alpine 3.18." }
   - { date: "11.02.23:", desc: "Rebase to Alpine 3.17." }
