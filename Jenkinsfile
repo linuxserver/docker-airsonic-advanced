@@ -36,7 +36,7 @@ pipeline {
     CI_DELAY='300'
     CI_DOCKERENV=''
     CI_AUTH=''
-    CI_WEBPATH=''
+    CI_WEBPATH='/login'
   }
   stages {
     // Setup all the basic environment variables needed for the build
