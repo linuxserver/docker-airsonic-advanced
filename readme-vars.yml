@@ -6,15 +6,11 @@ project_url: "https://github.com/airsonic-advanced/airsonic-advanced"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/airsonic-banner.png"
 project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) is a free, web-based media streamer, providing ubiquitious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
-project_blurb_optional_extras_enabled: false
 
 # supported architectures
 available_architectures:
   - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
   - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
-
-# development version
-development_versions: false
 
 # container parameters
 common_param_env_vars_enabled: true
@@ -40,6 +36,8 @@ opt_param_volumes:
 opt_param_device_map: true
 opt_param_devices:
   - { device_path: "/dev/snd", device_host_path: "/dev/snd", desc: "Only needed to pass your host sound device to Airsonic's Java jukebox player." }
+
+readonly_supported: true
 
 # application setup block
 app_setup_block_enabled: true
