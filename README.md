@@ -71,6 +71,11 @@ Extra java options can be passed with the JAVA_OPTS environment variable, eg `-e
 
 Note that if you want to use [Airsonic's Java jukebox player](https://airsonic.github.io/docs/jukebox/), then `PGID` will need to match the group of your sound device (e.g. `/dev/snd`).
 
+## Read-Only Operation
+
+This image can be run with a read-only container filesystem. For details please [read the docs](https://docs.linuxserver.io/misc/read-only/).
+
+
 ## Usage
 
 To help you get started creating a container from this image you can either use docker-compose or the docker cli.
@@ -141,6 +146,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-v /podcasts` | Location of podcasts. |
 | `-v /media` | Location of other media. |
 | `--device /dev/snd` | Only needed to pass your host sound device to Airsonic's Java jukebox player. |
+| `--read-only=true` | Run container with a read-only filesystem. Please [read the docs](https://docs.linuxserver.io/misc/read-only/). |
 
 ## Environment variables from files (Docker secrets)
 
