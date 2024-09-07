@@ -47,7 +47,7 @@ coreutils                           9.5-r1                                     a
 coreutils-env                       9.5-r1                                     apk             
 coreutils-fmt                       9.5-r1                                     apk             
 coreutils-sha512sum                 9.5-r1                                     apk             
-curl                                8.9.0-r0                                   apk             
+curl                                8.9.1-r1                                   apk             
 cxf-core                            3.4.3                                      java-archive    
 cxf-rt-bindings-soap                3.4.3                                      java-archive    
 cxf-rt-bindings-xml                 3.4.3                                      java-archive    
@@ -86,7 +86,7 @@ freetype                            2.13.2-r0                                  a
 fribidi                             1.0.15-r0                                  apk             
 geronimo-jta_1.1_spec               1.1.1                                      java-archive    
 giflib                              5.2.2-r0                                   apk             
-glib                                2.80.2-r0                                  apk             
+glib                                2.80.4-r0                                  apk             
 glslang-libs                        1.3.261.1-r0                               apk             
 graphite2                           1.3.14-r6                                  apk             
 guava                               30.1-jre                                   java-archive    
@@ -156,12 +156,12 @@ libbluray                           1.3.4-r1                                   a
 libbsd                              0.12.2-r0                                  apk             
 libbz2                              1.0.8-r6                                   apk             
 libcrypto3                          3.3.1-r3                                   apk             
-libcurl                             8.9.0-r0                                   apk             
+libcurl                             8.9.1-r1                                   apk             
 libdav1d                            1.4.2-r0                                   apk             
 libdovi                             3.3.0-r0                                   apk             
 libdrm                              2.4.120-r0                                 apk             
 libeconf                            0.6.3-r0                                   apk             
-libexpat                            2.6.2-r0                                   apk             
+libexpat                            2.6.3-r0                                   apk             
 libffi                              3.4.6-r0                                   apk             
 libflac                             1.4.3-r1                                   apk             
 libfontenc                          1.1.8-r0                                   apk             
@@ -226,7 +226,7 @@ lucene-analyzers-common             8.9.0                                      j
 lucene-core                         8.9.0                                      java-archive    
 mariadb-java-client                 2.7.5                                      java-archive    
 maven-artifact                      3.6.0                                      java-archive    
-mbedtls                             3.6.0-r0                                   apk             
+mbedtls                             3.6.1-r0                                   apk             
 metrics-core                        4.1.31                                     java-archive    
 metrics-jmx                         4.1.31                                     java-archive    
 micrometer-core                     1.7.10                                     java-archive    
