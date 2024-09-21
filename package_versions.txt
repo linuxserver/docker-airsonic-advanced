@@ -47,7 +47,7 @@ coreutils                           9.5-r1                                     a
 coreutils-env                       9.5-r1                                     apk             
 coreutils-fmt                       9.5-r1                                     apk             
 coreutils-sha512sum                 9.5-r1                                     apk             
-curl                                8.9.1-r1                                   apk             
+curl                                8.10.0-r0                                  apk             
 cxf-core                            3.4.3                                      java-archive    
 cxf-rt-bindings-soap                3.4.3                                      java-archive    
 cxf-rt-bindings-xml                 3.4.3                                      java-archive    
@@ -86,7 +86,7 @@ freetype                            2.13.2-r0                                  a
 fribidi                             1.0.15-r0                                  apk             
 geronimo-jta_1.1_spec               1.1.1                                      java-archive    
 giflib                              5.2.2-r0                                   apk             
-glib                                2.80.4-r0                                  apk             
+glib                                2.80.5-r0                                  apk             
 glslang-libs                        1.3.261.1-r0                               apk             
 graphite2                           1.3.14-r6                                  apk             
 guava                               30.1-jre                                   java-archive    
@@ -156,7 +156,7 @@ libbluray                           1.3.4-r1                                   a
 libbsd                              0.12.2-r0                                  apk             
 libbz2                              1.0.8-r6                                   apk             
 libcrypto3                          3.3.2-r0                                   apk             
-libcurl                             8.9.1-r1                                   apk             
+libcurl                             8.10.0-r0                                  apk             
 libdav1d                            1.4.2-r0                                   apk             
 libdovi                             3.3.0-r0                                   apk             
 libdrm                              2.4.120-r0                                 apk             
@@ -175,12 +175,12 @@ libjxl                              0.10.2-r0                                  a
 libltdl                             2.4.7-r3                                   apk             
 libmd                               1.1.0-r0                                   apk             
 libmount                            2.40.1-r1                                  apk             
-libncursesw                         6.4_p20240420-r0                           apk             
+libncursesw                         6.4_p20240420-r1                           apk             
 libogg                              1.3.5-r5                                   apk             
 libopenmpt                          0.7.7-r0                                   apk             
 libpciaccess                        0.18.1-r0                                  apk             
 libplacebo                          6.338.2-r1                                 apk             
-libpng                              1.6.43-r0                                  apk             
+libpng                              1.6.44-r0                                  apk             
 libproc2                            4.0.4-r0                                   apk             
 libpsl                              0.21.5-r1                                  apk             
 libpulse                            17.0-r0                                    apk             
@@ -236,7 +236,7 @@ musl                                1.2.5-r0                                   a
 musl-utils                          1.2.5-r0                                   apk             
 mysql-connector-java                8.0.28                                     java-archive    
 natpmp                              0.1                                        java-archive    
-ncurses-terminfo-base               6.4_p20240420-r0                           apk             
+ncurses-terminfo-base               6.4_p20240420-r1                           apk             
 neethi                              3.1.1                                      java-archive    
 netcat-openbsd                      1.226-r0                                   apk             
 nghttp2-libs                        1.62.1-r0                                  apk             
