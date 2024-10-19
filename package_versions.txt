@@ -226,7 +226,7 @@ lucene-analyzers-common             8.9.0                                      j
 lucene-core                         8.9.0                                      java-archive    
 mariadb-java-client                 2.7.5                                      java-archive    
 maven-artifact                      3.6.0                                      java-archive    
-mbedtls                             3.6.1-r0                                   apk             
+mbedtls                             3.6.2-r0                                   apk             
 metrics-core                        4.1.31                                     java-archive    
 metrics-jmx                         4.1.31                                     java-archive    
 micrometer-core                     1.7.10                                     java-archive    
