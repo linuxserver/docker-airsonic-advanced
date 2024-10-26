@@ -136,7 +136,7 @@ jboss-logging                       3.4.3.Final                                j
 jboss-rmi-api_1.0_spec              1.0.6.Final                                java-archive    
 jdom                                2.0.2                                      java-archive    
 jq                                  1.7.1-r0                                   apk             
-jrt-fs                              11.0.24                                    java-archive    
+jrt-fs                              11.0.25                                    java-archive    
 jsoup                               1.15.3                                     java-archive    
 jsr305                              3.0.2                                      java-archive    
 jul-to-slf4j                        1.7.36                                     java-archive    
@@ -247,10 +247,10 @@ oniguruma                           6.9.9-r0                                   a
 openexr-libiex                      3.1.13-r1                                  apk             
 openexr-libilmthread                3.1.13-r1                                  apk             
 openexr-libopenexr                  3.1.13-r1                                  apk             
-openjdk11-jre                       11.0.24_p8-r0                              apk             
-openjdk11-jre-headless              11.0.24_p8-r0                              apk             
+openjdk11-jre                       11.0.25_p9-r0                              apk             
+openjdk11-jre-headless              11.0.25_p9-r0                              apk             
 opus                                1.5.2-r0                                   apk             
-orc                                 0.4.39-r0                                  apk             
+orc                                 0.4.40-r0                                  apk             
 org.eclipse.persistence.asm         2.7.8                                      java-archive    
 org.eclipse.persistence.core        2.7.8                                      java-archive    
 org.eclipse.persistence.moxy        2.7.8                                      java-archive    
