@@ -231,7 +231,7 @@ metrics-core                        4.1.31                                     j
 metrics-jmx                         4.1.31                                     java-archive    
 micrometer-core                     1.7.10                                     java-archive    
 mkfontscale                         1.2.2-r6                                   apk             
-mpg123-libs                         1.32.6-r0                                  apk             
+mpg123-libs                         1.32.8-r0                                  apk             
 musl                                1.2.5-r0                                   apk             
 musl-utils                          1.2.5-r0                                   apk             
 mysql-connector-java                8.0.28                                     java-archive    
