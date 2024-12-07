@@ -6,43 +6,37 @@ project_url: "https://github.com/airsonic-advanced/airsonic-advanced"
 project_logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/airsonic-banner.png"
 project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) is a free, web-based media streamer, providing ubiquitious access to your music. Use it to share your music with friends, or to listen to your own music while at work. You can stream to multiple players simultaneously, for instance to one player in your kitchen and another in your living room."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
-
 # supported architectures
 available_architectures:
-  - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
-  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
-
+  - {arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
+  - {arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
 # container parameters
 common_param_env_vars_enabled: true
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Configuration file location." }
-  - { vol_path: "/music", vol_host_path: "/path/to/music", desc: "Location of music." }
-  - { vol_path: "/playlists", vol_host_path: "/path/to/playlists", desc: "Location for playlists to be saved to." }
-  - { vol_path: "/podcasts", vol_host_path: "/path/to/podcasts", desc: "Location of podcasts." }
+  - {vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Configuration file location."}
+  - {vol_path: "/music", vol_host_path: "/path/to/music", desc: "Location of music."}
+  - {vol_path: "/playlists", vol_host_path: "/path/to/playlists", desc: "Location for playlists to be saved to."}
+  - {vol_path: "/podcasts", vol_host_path: "/path/to/podcasts", desc: "Location of podcasts."}
 param_usage_include_ports: true
 param_ports:
-  - { external_port: "4040", internal_port: "4040", port_desc: "WebUI" }
-
+  - {external_port: "4040", internal_port: "4040", port_desc: "WebUI"}
 # optional container parameters
 opt_param_usage_include_env: true
 opt_param_env_vars:
-  - { env_var: "CONTEXT_PATH", env_value: "", desc: "For setting url-base in reverse proxy setups." }
-  - { env_var: "JAVA_OPTS", env_value: "", desc: "For passing additional java options." }
+  - {env_var: "CONTEXT_PATH", env_value: "", desc: "For setting url-base in reverse proxy setups."}
+  - {env_var: "JAVA_OPTS", env_value: "", desc: "For passing additional java options."}
 opt_param_usage_include_vols: true
 opt_param_volumes:
-  - { vol_path: "/media", vol_host_path: "/path/to/other media", desc: "Location of other media." }
+  - {vol_path: "/media", vol_host_path: "/path/to/other media", desc: "Location of other media."}
 opt_param_device_map: true
 opt_param_devices:
-  - { device_path: "/dev/snd", device_host_path: "/dev/snd", desc: "Only needed to pass your host sound device to Airsonic's Java jukebox player." }
-
+  - {device_path: "/dev/snd", device_host_path: "/dev/snd", desc: "Only needed to pass your host sound device to Airsonic's Java jukebox player."}
 readonly_supported: true
-
 # application setup block
 app_setup_block_enabled: true
-app_setup_block: |
-
+app_setup_block: |2
   We don't formally support upgrading from Airsonic to Airsonic Advanced, it may or may not work for you and we'd recommend making backups before attempting this. Following the upgrade you may experience a forced rescan of your library so take this into account if you have a lot of files.
 
   Please see notes about upgrading from v10 to v11 [here](https://github.com/airsonic-advanced/airsonic-advanced#usage)
@@ -54,13 +48,55 @@ app_setup_block: |
   Extra java options can be passed with the JAVA_OPTS environment variable, eg `-e JAVA_OPTS="-Xmx256m -Xms256m"`. For some reverse proxies, you may need to pass `JAVA_OPTS=-Dserver.use-forward-headers=true` for airsonic to generate the proper URL schemes.
 
   Note that if you want to use [Airsonic's Java jukebox player](https://airsonic.github.io/docs/jukebox/), then `PGID` will need to match the group of your sound device (e.g. `/dev/snd`).
-
+# init diagram
+init_diagram: |
+  "airsonic-advanced:latest": {
+    docker-mods
+    base {
+      fix-attr +\nlegacy cont-init
+    }
+    docker-mods -> base
+    legacy-services
+    custom services
+    init-services -> legacy-services
+    init-services -> custom services
+    custom services -> legacy-services
+    legacy-services -> ci-service-check
+    init-migrations -> init-adduser
+    init-config -> init-airsonic-advanced-config
+    init-os-end -> init-config
+    init-airsonic-advanced-config -> init-config-end
+    init-config -> init-config-end
+    init-os-end -> init-crontab-config
+    init-mods-end -> init-custom-files
+    base -> init-envfile
+    base -> init-migrations
+    base -> init-mods
+    init-config-end -> init-mods
+    init-mods -> init-mods-end
+    init-mods-package-install -> init-mods-end
+    init-mods -> init-mods-package-install
+    base -> init-os-end
+    init-adduser -> init-os-end
+    init-envfile -> init-os-end
+    init-migrations -> init-os-end
+    init-custom-files -> init-services
+    init-mods-end -> init-services
+    init-services -> svc-airsonic-advanced
+    svc-airsonic-advanced -> legacy-services
+    init-services -> svc-cron
+    svc-cron -> legacy-services
+  }
+  Base Images: {
+    "baseimage-alpine:3.20"
+  }
+  "airsonic-advanced:latest" <- Base Images
 # changelog
 changelogs:
-  - { date: "24.05.24:", desc: "Rebase to Alpine 3.20." }
-  - { date: "20.03.24:", desc: "Rebase to Alpine 3.19." }
-  - { date: "30.05.23:", desc: "Rebase to Alpine 3.18." }
-  - { date: "11.02.23:", desc: "Rebase to Alpine 3.17." }
-  - { date: "23.10.22:", desc: "Rebase to Alpine 3.16, migrate to s6v3." }
-  - { date: "25.07.22:", desc: "Add vorbis-tools." }
-  - { date: "02.01.22:", desc: "Initial Release." }
+  - {date: "24.05.24:", desc: "Rebase to Alpine 3.20."}
+  - {date: "20.03.24:", desc: "Rebase to Alpine 3.19."}
+  - {date: "30.05.23:", desc: "Rebase to Alpine 3.18."}
+  - {date: "11.02.23:", desc: "Rebase to Alpine 3.17."}
+  - {date: "23.10.22:", desc: "Rebase to Alpine 3.16, migrate to s6v3."}
+  - {date: "25.07.22:", desc: "Add vorbis-tools."}
+  - {date: "02.01.22:", desc: "Initial Release."}
