@@ -26,7 +26,7 @@ RUN \
     vorbis-tools && \
   echo "**** install airsonic advanced ****" && \
   if [ -z ${AIRSONIC_ADVANCED_RELEASE+x} ]; then \
-    AIRSONIC_ADVANCED_RELEASE=$(curl -sX GET "https://api.github.com/repos/kagemomiji/airsonic-advanced/releases" \
+    AIRSONIC_ADVANCED_RELEASE=$(curl -sX GET "https://api.github.com/repos/kagemomiji/airsonic-advanced/releases/latest" \
     | awk '/tag_name/{print $4;exit}' FS='[""]'); \
   fi && \
   mkdir -p \
