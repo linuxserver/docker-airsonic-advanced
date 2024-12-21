@@ -94,7 +94,7 @@ init_diagram: |
   "airsonic-advanced:latest" <- Base Images
 # changelog
 changelogs:
-  - {date: "21.12.24:", desc: "Rebase to Alpine 3.21."}
+  - {date: "21.12.24:", desc: "Rebase to Alpine 3.21. Switch upstream to track https://github.com/kagemomiji/airsonic-advanced."}
   - {date: "24.05.24:", desc: "Rebase to Alpine 3.20."}
   - {date: "20.03.24:", desc: "Rebase to Alpine 3.19."}
   - {date: "30.05.23:", desc: "Rebase to Alpine 3.18."}

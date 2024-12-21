@@ -317,7 +317,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
-* **21.12.24:** - Rebase to Alpine 3.21.
+* **21.12.24:** - Rebase to Alpine 3.21. Switch upstream to track https://github.com/kagemomiji/airsonic-advanced.
 * **24.05.24:** - Rebase to Alpine 3.20.
 * **20.03.24:** - Rebase to Alpine 3.19.
 * **30.05.23:** - Rebase to Alpine 3.18.

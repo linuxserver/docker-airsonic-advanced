@@ -26,14 +26,14 @@ RUN \
     vorbis-tools && \
   echo "**** install airsonic advanced ****" && \
   if [ -z ${AIRSONIC_ADVANCED_RELEASE+x} ]; then \
-    AIRSONIC_ADVANCED_RELEASE=$(curl -sX GET "https://api.github.com/repos/airsonic-advanced/airsonic-advanced/releases" \
+    AIRSONIC_ADVANCED_RELEASE=$(curl -sX GET "https://api.github.com/repos/kagemomiji/airsonic-advanced/releases" \
     | awk '/tag_name/{print $4;exit}' FS='[""]'); \
   fi && \
   mkdir -p \
     ${AIRSONIC_ADVANCED_HOME} && \
   curl -o \
   ${AIRSONIC_ADVANCED_HOME}/airsonic.war -L \
-    "https://github.com/airsonic-advanced/airsonic-advanced/releases/download/${AIRSONIC_ADVANCED_RELEASE}/airsonic.war" && \
+    "https://github.com/kagemomiji/airsonic-advanced/releases/download/${AIRSONIC_ADVANCED_RELEASE}/airsonic.war" && \
   printf "Linuxserver.io version: ${VERSION}\nBuild-date: ${BUILD_DATE}" > /build_version && \
   echo "**** cleanup ****" && \
   rm -rf \
