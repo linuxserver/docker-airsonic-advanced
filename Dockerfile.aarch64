@@ -21,7 +21,7 @@ RUN \
     flac \
     fontconfig \
     lame \
-    openjdk11-jre \
+    openjdk17-jre \
     ttf-dejavu \
     vorbis-tools && \
   echo "**** install airsonic advanced ****" && \
