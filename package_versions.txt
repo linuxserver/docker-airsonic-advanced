@@ -8,7 +8,7 @@ airsonic-sonos-api                  11.1.4                                     j
 alpine-baselayout                   3.6.8-r1                                   apk                           
 alpine-baselayout-data              3.6.8-r1                                   apk                           
 alpine-keys                         2.5-r0                                     apk                           
-alpine-release                      3.21.0-r0                                  apk                           
+alpine-release                      3.21.2-r0                                  apk                           
 alsa-lib                            1.2.12-r0                                  apk                           
 angus-activation                    2.0.2                                      java-archive                  
 angus-core                          2.0.3                                      java-archive                  
@@ -28,8 +28,8 @@ busybox                             1.37.0-r9                                  a
 busybox-binsh                       1.37.0-r9                                  apk                           
 byte-buddy                          1.14.19                                    java-archive                  
 c-ares                              1.34.3-r0                                  apk                           
-ca-certificates                     20241121-r0                                apk                           
-ca-certificates-bundle              20241121-r0                                apk                           
+ca-certificates                     20241121-r1                                apk                           
+ca-certificates-bundle              20241121-r1                                apk                           
 cache-api                           1.1.1                                      java-archive                  
 caffeine                            3.1.8                                      java-archive                  
 castor-core                         1.3.3                                      java-archive                  
@@ -57,10 +57,10 @@ commons-logging                     1.2                                        j
 commons-text                        1.12.0                                     java-archive                  
 core                                2.0.0-RELEASE                              java-archive                  
 core                                75.1                                       java-archive                  
-coreutils                           9.5-r1                                     apk                           
-coreutils-env                       9.5-r1                                     apk                           
-coreutils-fmt                       9.5-r1                                     apk                           
-coreutils-sha512sum                 9.5-r1                                     apk                           
+coreutils                           9.5-r2                                     apk                           
+coreutils-env                       9.5-r2                                     apk                           
+coreutils-fmt                       9.5-r2                                     apk                           
+coreutils-sha512sum                 9.5-r2                                     apk                           
 cuelib-core                         2.0.0                                      java-archive                  
 curl                                8.11.1-r0                                  apk                           
 currdata                            75.1                                       java-archive                  
