@@ -24,8 +24,8 @@ attoparser                          2.0.7.RELEASE                              j
 bash                                5.2.37-r0                                  apk                           
 bcprov-jdk18on                      1.78.1                                     java-archive                  
 brotli-libs                         1.1.0-r2                                   apk                           
-busybox                             1.37.0-r9                                  apk                           
-busybox-binsh                       1.37.0-r9                                  apk                           
+busybox                             1.37.0-r12                                 apk                           
+busybox-binsh                       1.37.0-r12                                 apk                           
 byte-buddy                          1.14.19                                    java-archive                  
 c-ares                              1.34.3-r0                                  apk                           
 ca-certificates                     20241121-r1                                apk                           
@@ -363,7 +363,7 @@ spring-web                          6.1.12                                     j
 spring-webmvc                       6.1.12                                     java-archive                  
 spring-websocket                    6.1.12                                     java-archive                  
 sratom                              0.6.16-r0                                  apk                           
-ssl_client                          1.37.0-r9                                  apk                           
+ssl_client                          1.37.0-r12                                 apk                           
 statistics                          2.1.2                                      java-archive                  
 stax                                1.2.0                                      java-archive                  
 stax2-api                           4.2.2                                      java-archive                  
