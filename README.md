@@ -144,7 +144,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
-| `-e CONTEXT_PATH=` | For setting url-base in reverse proxy setups. |
+| `-e CONTEXT_PATH=` | For setting url-base in reverse proxy setups. /airsonic when using as subfolder  |
 | `-e JAVA_OPTS=` | For passing additional java options. |
 | `-v /config` | Configuration file location. |
 | `-v /music` | Location of music. |
