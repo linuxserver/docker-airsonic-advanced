@@ -8,7 +8,7 @@ airsonic-sonos-api                  11.1.4                                     j
 alpine-baselayout                   3.6.8-r1                                   apk                           
 alpine-baselayout-data              3.6.8-r1                                   apk                           
 alpine-keys                         2.5-r0                                     apk                           
-alpine-release                      3.21.4-r0                                  apk                           
+alpine-release                      3.21.5-r0                                  apk                           
 alsa-lib                            1.2.12-r0                                  apk                           
 angus-activation                    2.0.2                                      java-archive                  
 angus-core                          2.0.3                                      java-archive                  
@@ -249,7 +249,7 @@ lucene-backward-codecs              9.11.1                                     j
 lucene-core                         9.11.1                                     java-archive                  
 mariadb-java-client                 3.3.2                                      java-archive                  
 maven-artifact                      3.9.9                                      java-archive                  
-mbedtls                             3.6.4-r0                                   apk                           
+mbedtls                             3.6.5-r0                                   apk                           
 metrics-core                        4.2.27                                     java-archive                  
 metrics-jmx                         4.2.27                                     java-archive                  
 micrometer-commons                  1.13.3                                     java-archive                  
