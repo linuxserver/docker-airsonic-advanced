@@ -36,7 +36,7 @@ castor-core                         1.3.3                                      j
 castor-xml                          1.3.3                                      java-archive                  
 catatonit                           0.2.0-r0                                   apk                           
 checker-qual                        3.47.0                                     java-archive                  
-cjson                               1.7.18-r0                                  apk                           
+cjson                               1.7.19-r0                                  apk                           
 classmate                           1.7.0                                      java-archive                  
 cling-core                          2.0.1                                      java-archive                  
 cling-support                       2.0.1                                      java-archive                  
