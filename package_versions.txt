@@ -156,7 +156,7 @@ jdom2                               2.0.6.1                                    j
 jna                                 5.15.0                                     java-archive                  
 jna-platform                        5.15.0                                     java-archive                  
 jq                                  1.7.1-r0                                   apk                           
-jrt-fs                              17.0.16                                    java-archive                  
+jrt-fs                              17.0.17                                    java-archive                  
 jsoup                               1.18.1                                     java-archive                  
 jsr305                              3.0.2                                      java-archive                  
 jul-to-slf4j                        2.0.16                                     java-archive                  
@@ -275,8 +275,8 @@ openexr-libiex                      3.3.2-r0                                   a
 openexr-libilmthread                3.3.2-r0                                   apk                           
 openexr-libopenexr                  3.3.2-r0                                   apk                           
 openexr-libopenexrcore              3.3.2-r0                                   apk                           
-openjdk17-jre                       17.0.16_p8-r0                              apk                           
-openjdk17-jre-headless              17.0.16_p8-r0                              apk                           
+openjdk17-jre                       17.0.17_p10-r0                             apk                           
+openjdk17-jre-headless              17.0.17_p10-r0                             apk                           
 opus                                1.5.2-r1                                   apk                           
 orc                                 0.4.40-r1                                  apk                           
 org.eclipse.persistence.asm         9.7.0                                      java-archive                  
