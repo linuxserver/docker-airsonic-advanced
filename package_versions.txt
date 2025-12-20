@@ -27,7 +27,7 @@ brotli-libs                         1.1.0-r2                                   a
 busybox                             1.37.0-r14                                 apk                           
 busybox-binsh                       1.37.0-r14                                 apk                           
 byte-buddy                          1.14.19                                    java-archive                  
-c-ares                              1.34.5-r0                                  apk                           
+c-ares                              1.34.6-r0                                  apk                           
 ca-certificates                     20250911-r0                                apk                           
 ca-certificates-bundle              20250911-r0                                apk                           
 cache-api                           1.1.1                                      java-archive                  
@@ -377,7 +377,7 @@ tomcat-embed-el                     10.1.28                                    j
 tomcat-embed-websocket              10.1.28                                    java-archive                  
 translit                            75.1                                       java-archive                  
 txw2                                4.0.5                                      java-archive  (+1 duplicate)  
-tzdata                              2025b-r0                                   apk                           
+tzdata                              2025c-r0                                   apk                           
 unbescape                           1.1.6.RELEASE                              java-archive                  
 utmps-libs                          0.1.2.3-r2                                 apk                           
 v4l-utils-libs                      1.28.1-r1                                  apk                           
