@@ -377,7 +377,7 @@ tomcat-embed-el                     10.1.28                                    j
 tomcat-embed-websocket              10.1.28                                    java-archive                  
 translit                            75.1                                       java-archive                  
 txw2                                4.0.5                                      java-archive  (+1 duplicate)  
-tzdata                              2025c-r0                                   apk                           
+tzdata                              2026a-r0                                   apk                           
 unbescape                           1.1.6.RELEASE                              java-archive                  
 utmps-libs                          0.1.2.3-r2                                 apk                           
 v4l-utils-libs                      1.28.1-r1                                  apk                           
