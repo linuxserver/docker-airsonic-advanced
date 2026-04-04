@@ -249,7 +249,7 @@ lucene-backward-codecs              9.11.1                                     j
 lucene-core                         9.11.1                                     java-archive                  
 mariadb-java-client                 3.3.2                                      java-archive                  
 maven-artifact                      3.9.9                                      java-archive                  
-mbedtls                             3.6.5-r0                                   apk                           
+mbedtls                             3.6.6-r0                                   apk                           
 metrics-core                        4.2.27                                     java-archive                  
 metrics-jmx                         4.2.27                                     java-archive                  
 micrometer-commons                  1.13.3                                     java-archive                  
