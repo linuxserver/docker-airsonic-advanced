@@ -175,7 +175,7 @@ libblkid                            2.40.4-r1                                  a
 libbluray                           1.3.4-r1                                   apk                           
 libbsd                              0.12.2-r0                                  apk                           
 libbz2                              1.0.8-r6                                   apk                           
-libcrypto3                          3.3.6-r0                                   apk                           
+libcrypto3                          3.3.7-r0                                   apk                           
 libcurl                             8.14.1-r2                                  apk                           
 libdav1d                            1.5.0-r0                                   apk                           
 libdeflate                          1.22-r0                                    apk                           
@@ -211,7 +211,7 @@ libsndfile                          1.2.2-r2                                   a
 libsodium                           1.0.20-r1                                  apk                           
 libsrt                              1.5.3-r0                                   apk                           
 libssh                              0.11.1-r0                                  apk                           
-libssl3                             3.3.6-r0                                   apk                           
+libssl3                             3.3.7-r0                                   apk                           
 libstdc++                           14.2.0-r4                                  apk                           
 libtasn1                            4.21.0-r0                                  apk                           
 libtheora                           1.1.1-r18                                  apk                           
@@ -258,8 +258,8 @@ micrometer-jakarta9                 1.13.3                                     j
 micrometer-observation              1.13.3                                     java-archive                  
 mkfontscale                         1.2.3-r1                                   apk                           
 mpg123-libs                         1.32.9-r0                                  apk                           
-musl                                1.2.5-r9                                   apk                           
-musl-utils                          1.2.5-r9                                   apk                           
+musl                                1.2.5-r11                                  apk                           
+musl-utils                          1.2.5-r11                                  apk                           
 mysql-connector-j                   9.0.0                                      java-archive                  
 natpmp                              0.1                                        java-archive                  
 ncurses-terminfo-base               6.5_p20241006-r3                           apk                           
