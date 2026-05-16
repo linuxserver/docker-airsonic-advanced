@@ -265,7 +265,7 @@ natpmp                              0.1                                        j
 ncurses-terminfo-base               6.5_p20241006-r3                           apk                           
 neethi                              3.2.0                                      java-archive                  
 netcat-openbsd                      1.226.1.1-r0                               apk                           
-nghttp2-libs                        1.64.0-r0                                  apk                           
+nghttp2-libs                        1.69.0-r0                                  apk                           
 numactl                             2.0.18-r0                                  apk                           
 offheap-store                       2.5.3                                      java-archive                  
 onevpl-libs                         2023.3.1-r2                                apk                           
