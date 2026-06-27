@@ -182,7 +182,7 @@ libdeflate                          1.22-r0                                    a
 libdovi                             3.3.1-r0                                   apk                           
 libdrm                              2.4.123-r1                                 apk                           
 libeconf                            0.6.3-r0                                   apk                           
-libexpat                            2.7.5-r0                                   apk                           
+libexpat                            2.8.1-r0                                   apk                           
 libffi                              3.4.7-r0                                   apk                           
 libflac                             1.4.3-r1                                   apk                           
 libfontenc                          1.1.8-r0                                   apk                           
@@ -282,8 +282,8 @@ orc                                 0.4.40-r1                                  a
 org.eclipse.persistence.asm         9.7.0                                      java-archive                  
 org.eclipse.persistence.core        4.0.4                                      java-archive                  
 org.eclipse.persistence.moxy        4.0.4                                      java-archive                  
-p11-kit                             0.25.5-r2                                  apk                           
-p11-kit-trust                       0.25.5-r2                                  apk                           
+p11-kit                             0.26.2-r0                                  apk                           
+p11-kit-trust                       0.26.2-r0                                  apk                           
 pcre2                               10.43-r0                                   apk                           
 playlist-all                        2.0.0-RELEASE                              java-archive                  
 playlist-asx                        2.0.0-RELEASE                              java-archive                  
