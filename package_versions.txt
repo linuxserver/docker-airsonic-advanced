@@ -8,7 +8,7 @@ airsonic-sonos-api                  11.1.4                                     j
 alpine-baselayout                   3.6.8-r1                                   apk                           
 alpine-baselayout-data              3.6.8-r1                                   apk                           
 alpine-keys                         2.5-r0                                     apk                           
-alpine-release                      3.21.7-r0                                  apk                           
+alpine-release                      3.21.8-r0                                  apk                           
 alsa-lib                            1.2.12-r0                                  apk                           
 angus-activation                    2.0.2                                      java-archive                  
 angus-core                          2.0.3                                      java-archive                  
@@ -28,8 +28,8 @@ busybox                             1.37.0-r14                                 a
 busybox-binsh                       1.37.0-r14                                 apk                           
 byte-buddy                          1.14.19                                    java-archive                  
 c-ares                              1.34.8-r0                                  apk                           
-ca-certificates                     20260413-r0                                apk                           
-ca-certificates-bundle              20260413-r0                                apk                           
+ca-certificates                     20260909-r0                                apk                           
+ca-certificates-bundle              20260909-r0                                apk                           
 cache-api                           1.1.1                                      java-archive                  
 caffeine                            3.1.8                                      java-archive                  
 castor-core                         1.3.3                                      java-archive                  
@@ -175,7 +175,7 @@ libblkid                            2.40.4-r1                                  a
 libbluray                           1.3.4-r1                                   apk                           
 libbsd                              0.12.2-r0                                  apk                           
 libbz2                              1.0.8-r6                                   apk                           
-libcrypto3                          3.3.7-r0                                   apk                           
+libcrypto3                          3.3.7-r1                                   apk                           
 libcurl                             8.14.1-r2                                  apk                           
 libdav1d                            1.5.0-r0                                   apk                           
 libdeflate                          1.22-r0                                    apk                           
@@ -211,7 +211,7 @@ libsndfile                          1.2.2-r2                                   a
 libsodium                           1.0.20-r1                                  apk                           
 libsrt                              1.5.3-r0                                   apk                           
 libssh                              0.11.1-r0                                  apk                           
-libssl3                             3.3.7-r0                                   apk                           
+libssl3                             3.3.7-r1                                   apk                           
 libstdc++                           14.2.0-r4                                  apk                           
 libtasn1                            4.21.0-r0                                  apk                           
 libtheora                           1.1.1-r18                                  apk                           
@@ -377,7 +377,7 @@ tomcat-embed-el                     10.1.28                                    j
 tomcat-embed-websocket              10.1.28                                    java-archive                  
 translit                            75.1                                       java-archive                  
 txw2                                4.0.5                                      java-archive  (+1 duplicate)  
-tzdata                              2026c-r0                                   apk                           
+tzdata                              2026d-r0                                   apk                           
 unbescape                           1.1.6.RELEASE                              java-archive                  
 utmps-libs                          0.1.2.3-r2                                 apk                           
 v4l-utils-libs                      1.28.1-r1                                  apk                           
