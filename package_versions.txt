@@ -8,7 +8,7 @@ airsonic-sonos-api                  11.1.4                                     j
 alpine-baselayout                   3.6.8-r1                                   apk                           
 alpine-baselayout-data              3.6.8-r1                                   apk                           
 alpine-keys                         2.5-r0                                     apk                           
-alpine-release                      3.21.8-r0                                  apk                           
+alpine-release                      3.21.9-r0                                  apk                           
 alsa-lib                            1.2.12-r0                                  apk                           
 angus-activation                    2.0.2                                      java-archive                  
 angus-core                          2.0.3                                      java-archive                  
@@ -23,7 +23,7 @@ aspectjweaver                       1.9.22.1                                   j
 attoparser                          2.0.7.RELEASE                              java-archive                  
 bash                                5.2.37-r0                                  apk                           
 bcprov-jdk18on                      1.78.1                                     java-archive                  
-brotli-libs                         1.1.0-r2                                   apk                           
+brotli-libs                         1.1.1-r0                                   apk                           
 busybox                             1.37.0-r14                                 apk                           
 busybox-binsh                       1.37.0-r14                                 apk                           
 byte-buddy                          1.14.19                                    java-archive                  
@@ -258,8 +258,8 @@ micrometer-jakarta9                 1.13.3                                     j
 micrometer-observation              1.13.3                                     java-archive                  
 mkfontscale                         1.2.3-r1                                   apk                           
 mpg123-libs                         1.32.9-r0                                  apk                           
-musl                                1.2.5-r11                                  apk                           
-musl-utils                          1.2.5-r11                                  apk                           
+musl                                1.2.5-r12                                  apk                           
+musl-utils                          1.2.5-r12                                  apk                           
 mysql-connector-j                   9.0.0                                      java-archive                  
 natpmp                              0.1                                        java-archive                  
 ncurses-terminfo-base               6.5_p20241006-r3                           apk                           
